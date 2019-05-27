@@ -1,0 +1,105 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Einstein(1950)]{Einstein1950}
+Hans~Albert Einstein.
+\newblock {The Bed-Load Function for Sediment Transportation in Open Channel
+  Flows}.
+\newblock \emph{Technical Report, Soil Conservation Service,U.S Department of
+  Agriculture, U.S.A}, \penalty0 (1026):\penalty0 1--31, 1950.
+\newblock ISSN 0103-7196.
+
+\bibitem[Ancey et~al.(2006)Ancey, B{\"{o}}hm, Jodeau, and Frey]{Ancey2006}
+Christophe Ancey, Tobias B{\"{o}}hm, Magali Jodeau, and Philippe Frey.
+\newblock {Statistical description of sediment transport experiments}.
+\newblock \emph{Physical Review E - Statistical, Nonlinear, and Soft Matter
+  Physics}, 74\penalty0 (1):\penalty0 1--14, 2006.
+\newblock ISSN 15393755.
+\newblock \doi{10.1103/PhysRevE.74.011302}.
+
+\bibitem[Ancey et~al.(2008)Ancey, Davison, B{\"{o}}hm, Jodeau, and
+  Frey]{Ancey2008}
+C.~Ancey, A.~C. Davison, T.~B{\"{o}}hm, M.~Jodeau, and P.~Frey.
+\newblock {Entrainment and motion of coarse particles in a shallow water stream
+  down a steep slope}.
+\newblock \emph{Journal of Fluid Mechanics}, 595\penalty0 (2008):\penalty0
+  83--114, 2008.
+\newblock ISSN 00221120.
+\newblock \doi{10.1017/S0022112007008774}.
+\newblock URL
+  \url{http://www.journals.cambridge.org/abstract{\_}S0022112007008774}.
+
+\bibitem[Heyman et~al.(2013)Heyman, Mettra, Ma, and Ancey]{Heyman2013}
+J.~Heyman, F.~Mettra, H.~B. Ma, and C.~Ancey.
+\newblock {Statistics of bedload transport over steep slopes: Separation of
+  time scales and collective motion}.
+\newblock \emph{Geophysical Research Letters}, 40\penalty0 (1):\penalty0
+  128--133, 2013.
+\newblock ISSN 00948276.
+\newblock \doi{10.1029/2012GL054280}.
+
+\bibitem[Cox and Miller(1965)]{Cox1965}
+D.~R. Cox and H.D. Miller.
+\newblock \emph{{The Theory of Stochastic Processes}}.
+\newblock Chapman and Hall, London, 1965.
+
+\bibitem[Wong et~al.(2007)Wong, Parker, DeVries, Brown, and Burges]{Wong2007}
+Miguel Wong, Gary Parker, Paul DeVries, Timothy~M. Brown, and Stephen~J.
+  Burges.
+\newblock {Experiments on dispersion of tracer stones under lower-regime
+  plane-bed equilibrium bed load transport}.
+\newblock \emph{Water Resources Research}, 43\penalty0 (3):\penalty0 1--23,
+  2007.
+\newblock ISSN 00431397.
+\newblock \doi{10.1029/2006WR005172}.
+
+\bibitem[Singh et~al.(2009)Singh, Fienberg, Jerolmack, Marr, and
+  Foufoula-Georgiou]{Singh2009}
+Arvind Singh, Kurt Fienberg, Douglas~J. Jerolmack, Jeffrey Marr, and Efi
+  Foufoula-Georgiou.
+\newblock {Experimental evidence for statistical scaling and intermittency in
+  sediment transport rates}.
+\newblock \emph{Journal of Geophysical Research: Earth Surface}, 114\penalty0
+  (1):\penalty0 1--16, 2009.
+\newblock ISSN 21699011.
+\newblock \doi{10.1029/2007JF000963}.
+
+\bibitem[Voepel et~al.(2013)Voepel, Schumer, and Hassan]{Voepel2013}
+Hal Voepel, Rina Schumer, and Marwan~A. Hassan.
+\newblock {Sediment residence time distributions: Theory and application from
+  bed elevation measurements}.
+\newblock \emph{Journal of Geophysical Research: Earth Surface}, 118\penalty0
+  (4):\penalty0 2557--2567, 2013.
+\newblock ISSN 21699011.
+\newblock \doi{10.1002/jgrf.20151}.
+
+\bibitem[Hassan and Bradley(2017)]{Hassan2017}
+Marwan~A. Hassan and D.~Nathan Bradley.
+\newblock {Geomorphic controls on tracer particle dispersion in gravel bed
+  rivers}.
+\newblock In \emph{Gravel-Bed Rivers: Processes and Disasters}, pages 159--184.
+  John Wiley {\&} Sons Ltd., New York, NY, 2017.
+\newblock \doi{10.16719/j.cnki.1671-6981.2015.03.007}.
+
+\bibitem[Martin et~al.(2014)Martin, Purohit, and Jerolmack]{Martin2014}
+Raleigh~L. Martin, Prashant~K. Purohit, and Douglas~J. Jerolmack.
+\newblock {Sedimentary bed evolution as a mean-reverting random walk:
+  Implications for tracer statistics}.
+\newblock \emph{Geophysical Research Letters}, 41\penalty0 (17):\penalty0
+  6152--6159, 2014.
+\newblock ISSN 19448007.
+\newblock \doi{10.1002/2014GL060525}.
+
+\bibitem[Gillespie(1977)]{Gillespie1977}
+Daniel~T. Gillespie.
+\newblock {Exact stochastic simulation of coupled chemical reactions}.
+\newblock \emph{Journal of Physical Chemistry}, 81\penalty0 (25):\penalty0
+  2340--2361, 1977.
+\newblock ISSN 00223654.
+\newblock \doi{10.1021/j100540a008}.
+
+\end{thebibliography}

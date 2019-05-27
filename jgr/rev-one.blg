@@ -1,0 +1,150 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: rev-one.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: biblio.bib
+Repeated entry---line 4293 of file biblio.bib
+ : @article{Weeks1998
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4635 of file biblio.bib
+ : @article{Malmon2005
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4659 of file biblio.bib
+ : @article{Swift2002
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4670 of file biblio.bib
+ : @article{Fan2017
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4686 of file biblio.bib
+ : @article{Gaeuman2017
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4714 of file biblio.bib
+ : @article{Gillespie2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4973 of file biblio.bib
+ : @article{Gillespie1977
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8270 of file biblio.bib
+ : @article{Olinde2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8439 of file biblio.bib
+ : @article{Voepel2013
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8832 of file biblio.bib
+ : @article{Zhang2012
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11310 of file biblio.bib
+ : @article{Bennett1972
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11604 of file biblio.bib
+ : @article{Einstein1905
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11751 of file biblio.bib
+ : @article{Bradley2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12183 of file biblio.bib
+ : @article{Nikora2002
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12497 of file biblio.bib
+ : @article{Hassan2013
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12522 of file biblio.bib
+ : @article{Wilcock2003
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12575 of file biblio.bib
+ : @article{Wong2007
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12750 of file biblio.bib
+ : @article{Bradley2017
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12764 of file biblio.bib
+ : @article{Martin2014
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12778 of file biblio.bib
+ : @article{Habersack2001
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12793 of file biblio.bib
+ : @article{Martin2012
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12887 of file biblio.bib
+ : @incollection{Hassan2017
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12937 of file biblio.bib
+ : @article{Ancey2008
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Yang1972"
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 37 entries,
+            6951 wiz_defined-function locations,
+            1565 strings with 20380 characters,
+and the built_in function-call counts, 73960 in all, are:
+= -- 9221
+> -- 569
+< -- 3646
++ -- 3823
+- -- 74
+* -- 4838
+:= -- 13614
+add.period$ -- 157
+call.type$ -- 37
+change.case$ -- 632
+chr.to.int$ -- 0
+cite$ -- 74
+duplicate$ -- 1934
+empty$ -- 2816
+format.name$ -- 925
+if$ -- 13938
+int.to.chr$ -- 0
+int.to.str$ -- 111
+missing$ -- 0
+newline$ -- 979
+num.names$ -- 296
+pop$ -- 1113
+preamble$ -- 1
+purify$ -- 148
+quote$ -- 0
+skip$ -- 4805
+stack$ -- 0
+substring$ -- 4175
+swap$ -- 1144
+text.length$ -- 91
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 3280
+warning$ -- 0
+while$ -- 325
+width$ -- 0
+write$ -- 1193
+(There were 23 error messages)

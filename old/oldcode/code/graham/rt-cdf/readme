@@ -1,0 +1,13 @@
+cdf.py calculates the unconditional cdf of return time of the bed
+iterator.sh iteratively runs runit.sh over each simulation file for all inputs
+runit.sh runs a cdf computation given two inputs of dat files
+testcdf.py (trash)
+testiterator.sh (trash)
+testrunit.sh (trash)
+
+
+these scripts correspond to a particular directory structure
+so they will need modification of connecting directories to run elsewhere
+
+
+DEPRECIATE

@@ -1,0 +1,3 @@
+simulate.py runs a single simulation given input flags to fix the flow conditions and l value
+
+reverting.py contains the code necessary to run a simulation

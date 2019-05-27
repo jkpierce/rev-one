@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: reverting.aux
+The style file: agu.bst
+Database file #1: biblio.bib
+You've used 64 entries,
+            2789 wiz_defined-function locations,
+            1424 strings with 19656 characters,
+and the built_in function-call counts, 49852 in all, are:
+= -- 6193
+> -- 1986
+< -- 39
++ -- 1067
+- -- 479
+* -- 3416
+:= -- 5084
+add.period$ -- 64
+call.type$ -- 64
+change.case$ -- 348
+chr.to.int$ -- 64
+cite$ -- 192
+duplicate$ -- 4310
+empty$ -- 2461
+format.name$ -- 650
+if$ -- 9996
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 66
+newline$ -- 196
+num.names$ -- 257
+pop$ -- 1711
+preamble$ -- 1
+purify$ -- 287
+quote$ -- 0
+skip$ -- 3521
+stack$ -- 0
+substring$ -- 2202
+swap$ -- 3609
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 558
+warning$ -- 0
+while$ -- 325
+width$ -- 0
+write$ -- 702

@@ -1,0 +1,20 @@
+analysis.ipynb is where you made a bunch of nicely formatted plots
+for a presentation
+
+old contains old code
+
+cedar contains code meant to be run on the cluster
+it has gillespie simulation code, bash scripts to run these in parallel on 
+different nodes, and burial time analysis codes
+
+reverting.py  contains the raw code to perform the gillespie simulations
+
+tail_study.ipynb is where you first computed the unconditional resting time
+cdf and found that it is a truncated pareto distribution in accord with 
+Bradley 2017 
+
+
+Since writing the earlier portion of this readme you made a lot of progress. 
+You did high resolution simulations on the HPC cluster (cedar, later graham),
+and so the real code is re-written and contained in the graham folder. 
+There are readmes distributed throughout that. 

@@ -1,0 +1,5 @@
+depo-entrain is codes to evaluate the times of all entrainment and deposition events
+
+m-stats is codes to get the standard deviation, mean, and pdf of bed elevation
+
+rt-cdf is codes to calculate the unconditional return time cdf

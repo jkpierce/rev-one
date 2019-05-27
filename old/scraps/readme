@@ -1,0 +1,23 @@
+
+
+this is a generalization of ancey2008. Coupling the stochastic model to 
+the bed elevation fluctuations, what happens? 
+
+the report files are a short 2pg thing I sent to hassan to explain the idea
+there is the original jupyter notebook where the code was developed and the
+script that wrote it more succinctly 
+
+
+####### linux garble 
+
+using cat with >> puts two files together. 
+gotta figure out which direction... 
+
+sftp user@host.server.ca
+get xxx copies from server to local 
+put xxx copies from local to server 
+get -a copies files you don't have yet only 
+
+
+####### git garble 
+

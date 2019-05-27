@@ -1,0 +1,5 @@
+iterator.sh runs runit.sh across all simulation conditions
+mstats.py computes the pdf of m across 3 standard deviations of its variation
+runit.sh runs mstats.py if specified by a simulation condition
+
+this gets the pdf of m 

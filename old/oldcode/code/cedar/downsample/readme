@@ -1,0 +1,25 @@
+Simulation:
+
+trial.py runs a single trial given flags which fix l value and flow condition
+" runone.sh x y "  submits a " python3 trial.py x y " job
+" ./iterator.sh "  submits " runone.sh x y " repeatedly over all x and y 
+
+The code for trial.py is contained in reverting.py
+
+you may need to run ./iterate.sh as ./iterate.sh | bash - 
+which makes a new bash shell for each iteration
+I think there is a problem with this script. Some jobs get missed in the 
+submission
+
+
+
+Analysis: 
+
+analysis_tools.py contains functions to compute the distribution of elevation
+return times at each elevation, and to convolve these conditions to get the
+unconditional waiting time distribution
+
+analyze.py iterates through every simulation result, computes the return time
+cdf for this simulation, and saves it in a new directory which it makes.
+It will also save 'bins' which is the set of times over which the cdf is 
+defined. 

@@ -1,0 +1,31 @@
+Intro: 
+
+(what is the problem) 
+
+The transport and storage of sediment within gravel bed rivers are primary controls on channel morphology, so these factors are important to understand for a range of applications, including river restoration, sediment budgeting, and contaminant transport. 
+In relation to these problems, predictions of the rate of downstream transport of sediment, and the timescales and depths of burial of sediment grains, are often needed, either to confine the rate of contaminant transport, or to interpret field studies of transport and storage based on tracking tracer particles as they disperse downstream. 
+Inquiries into transport and burial are complicated because, under typical conditions in gravel bed rivers, both sediment transport rates and bed elevations evolve with time in an apparently random way. 
+These random variations persist even under the most controlled laboratory conditions, suggesting transport rates and bed elevations should really be described statistically. 
+
+To make the problem more difficult, it's conceptually clear that sediment transport and changes in bed elevation are not independent: erosion increases the number of particles in motion and decreases the bed elevation, while deposition decreases the number of particles in motion and increases the bed elevation. 
+Accordingly, transport and bed elevations are random variables, but they are also correlated. 
+In this paper, we try to build understanding of this correlation. 
+We ask: how do the timescales of sediment transport relate to the timescales of bed elevation change, and, once this is known, how do the characteristics of sediment transport confine the timescales over which tracers or contaminants remain buried in a gravel bed river? 
+To answer this question, we were led to develop a new theoretical model, presented in this paper. 
+
+( what do we know about it ) 
+
+Under typical flow conditions, sediment in gravel bed rivers moves by rolling, sliding, and bouncing along the bed, in a state of motion called bedload. 
+Owing to fluid turbulence, the irregular configurations of grains on the bed surface, and the interactions between the fluid and solid phases, the erosion, motion, and deposition of an individual sediment grain is not predictable, although at a population level involving very many grains, these processes may have stable statistical characterizations. 
+Einstein was the first to develop this perspective, characterizing bedload motion statistically from flume experiments \citep{Einstein1937}, and describing the mean bedload rate with a theoretical model based on these concepts \citep{Einstein1950}. 
+He considered bedload motion as an alternating sequence of rest and motion states, where the transitions between these states occur at random intervals. 
+In concept, he formulated bedload transport as a two state switching process, where the states are motion and rest, and where erosion and deposition rates characterize random transitions between these states. 
+\citet{Ancey2006} performed flume experiments on bedload transport under controlled laboratory conditions, and noted
+
+
+( how do we solve it ) 
+
+
+
+
+

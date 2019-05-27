@@ -1,0 +1,16 @@
+simulate.py runs a single simulation given input flags to fix the flow conditions and l value
+
+reverting.py contains the code necessary to run a simulation
+
+sim-run.sh is a job submission script for a single job
+sim-iterator.sh is a wrapper script to submit all jobs
+run it as 
+./sim-iterator.sh | bash - 
+to avoid bash parsing its echos
+
+joiner.py takes the batched outputs of sim-run.sh (i.e. of simulate.py)
+which are sequentially numbered, and then it concatenates them together.
+It will require at least as much memory as the sum of all original batch
+files, so it can probably get quite intensive.
+
+

@@ -1,0 +1,3 @@
+this script takes a big dat file containing all n,m,t transitions
+and it extracts entrainment and deposition events and writes them 
+to another two files in another path 
