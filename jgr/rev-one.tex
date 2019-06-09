@@ -18,47 +18,70 @@
 
 \begin{document}
 
-\title{Stochastic birth-death model of heavy-tailed fluvial sediment resting times}
+\title{Stochastic theory of heavy-tailed fluvial sediment resting times}
 \authors{James K. Pierce\affil{1}\thanks{Vancouver, British Columbia, Canada}, and Marwan A. Hassan\affil{1}\thanks{Vancouver, British Columbia, Canada}}
 \affiliation{1}{Department of Geography, University of British Columbia}
 \correspondingauthor{James K. Pierce}{kpierce@alumni.ubc.ca}
 
 \begin{keypoints}
 \item We model fluvial bedload activity and local bed elevation as a two-species stochastic birth-death process.
-\item The resulting timescales of sediment storage by burial lie on heavy-tailed power-law distributions. 
-\item Our model describes a virtual velocity of tracer particles may decline indefinitely toward zero as their lifetime in the channel increases.
+\item Resulting timescales of sediment storage by burial lie on heavy-tailed power-law distributions.
 \end{keypoints}
 
 \begin{abstract}
-A consensus has formed that fluvial sediment expresses heavy-tailed statistical distributions of resting times due to the effect of sediment burial on its mobility, and this has key implications for the diffusion of sediment and evacuation of contaminants from river channels.
-Owing to observational difficulties, only a handful of experiments have resolved these heavy-tailed resting time distributions, and there have been few theoretical attempts to build understanding.
-These studies do not agree on the form or properties of resting time distributions.
-In this work, we develop a new stochastic theory which jointly describes bedload transport and bed elevation changes, and we derive resting time distributions for sediment undergoing burial in terms of the joint dynamics.
-Our theory corroborates a subset of existing experimental and theoretical work, expressing resting time distributions for sediment undergoing burial with heavy power-law tails, implying super-diffusion of bedload.
-Our key finding is that the largest bedload resting times are controlled not only by the erosion and deposition rates, as suggested by earlier studies, but also by the scaling of erosion and deposition rates with local changes in bed elevation.
+A consensus has formed that fluvial bedload transports with heavy-tailed statistical distributions of resting times due to the effect of burial on its mobility, and this has key implications for the diffusion of sediment and evacuation of contaminants from river channels.
+Owing to observational difficulties, only a handful of experiments have resolved these heavy-tailed resting time distributions, and there have been few theoretical attempts to build understanding, leaving open questions as to the form of the resting time distribution and its governing factors.
+We present a new theory which describes bedload transport and bed elevation changes as a joint stochastic process and derives resting time distributions for sediment undergoing burial from these joint dynamics.
+Our theory predicts heavy-tailed power-law distributions of resting times for sediment undergoing burial, with the longest resting times completely governed by the mean erosion rate across bed aggradation/degradation cycles and its scaling with bed elevation changes.
+This implies diffusion characteristics of bedload undergoing burial ultimately remain linked to the mechanics of sediment transport.
 \end{abstract} 
 
 \section{Introduction}
 
-Classical theories of bedload transport in rivers relate the bulk downstream flux of sediment to characteristics of the hydraulic forcing \citep[e.g.][]{Yalin1972}.
-Although bulk fluxes are often described using deterministic models \citep[e.g.]{Wilcock2003}, the individual motions constituting them are more like a random walk, being an alternating sequence of motions and rests which are best characterized statistically \citep[e.g.][]{Einstein1937}.
-The statistical properties of individual motions generate differences in the virtual velocities of grains, and these differences imply diffusion, or a spreading out of grains as they transport downstream \citep{Einstein1937, Yano1969, Nakagawa1976}.
-Diffusion is important in applications where the downstream transport of only a subset of grains is of interest, as in contaminant evacuation \citep{Malmon2005}, river restoration \citep{Gaeuman2017}, and bed texture adjustment \citep{Hassan2017}, highlighting bedload diffusion as an important topic for study.
- 
-In the classic diffusion problems, such as the Brownian motion of pollen grains in water \citep[e.g.][]{Einstein1905}, the variance of particle positions $\sigma_x^2$ scales with time $t$ as $\sigma_x^2 \propto t$, a rate of spreading called Fickian or normal diffusion.
-Bedload diffusion is more nuanced.
-The nature of bedload diffusion is controlled by the probability distributions of step length and resting time.
-If either of these distributions has a heavy-tail, the diffusion is called anomalous instead of normal. 
-A heavy-tailed step length or resting time distribution has an exceedance distribution $P(X>x) \sim x^{-\alpha}$ with tail parameter $\alpha < 2$.
-Anomalous diffusion is characterized by a non-linear scaling of the variance of particle position with time, as in $\sigma_x^2 \propto t^\gamma$ with $\gamma\neq 1$.
+% bulk transport vs. individual grains & relevance of research
+The majority of the classic studies into fluvial sediment transport have attempted to relate the bulk downstream flux of bedload to characteristics of the hydraulic forcing \citep[e.g.][]{MeyerPeter1948, Yalin1972}, yet the relevance of this approach to environmental problems is limited, as many contemporary issues are contingent on the motion characteristics of individual grains rather than the average characteristics of many grains.
+For example, the persistence of solid contaminants within river channels ultimately links to the slowest moving grains, and not to the bulk flux \citep{Malmon2005}.
+Similar points can be made in relation to salmonid habitat restoration \citep[e.g.][]{Gaeuman2017} and morphological adjustment to disturbances \citep{Hassan2017}, highlighting the motions of individual grains through river channels as an important topic for geophysics research.
+
+% difficulty of modeling individual grains & motivation of stochastic concepts
+% need to describe sediment transport as a random-walk like process with alternate series of steps and rests
+A significant complication is that individual grains transport within a noisy environment, with noise sources ranging from microscale fluid turbulence \citep{Celik2014} and the irregular arrangement of bed surface grains \citep{Heyman2019}, to channel morphodynamics \citep{Hassan2017} and watershed hydrology \citep{Phillips2013}.
+Owing to this noise, the transport characteristics of individual grains are not deterministic \citep[e.g.][]{Einstein1937}, even in the most controlled small-scale laboratory experiments \citep[e.g.][]{Fathel2015, Heyman2016}.
+This realization has led to random walk formulations of individual motions, where bedload grains are considered to move through an alternating series of steps and rests, where step lengths and resting times are considered as random variables lying on statistical distributions \citep{Einstein1937, Yano1969, Nakagawa1976, Hassan1991, Bradley2012}.
+
+% explain how this implies diffusion
+% discuss the nature of diffusion and normal vs anomalous diffusion
+These random-walk models describe bedload diffusion, or the spreading apart of grains through time due to differences in their motions.
+The nature of bedload diffusion is controlled by whether the probability distributions of step lengths and resting times have light or heavy tails.
+A heavy-tailed step length or resting time distribution has an exceedance distribution $P(X>x) \sim x^{-\alpha}$ with tail parameter $\alpha < 2$, meaning large values of $x$ are relatively common, while a light-tailed distribution has $\alpha \geq 2$, meaning large values of $x$ are relatively rare.
+If both distributions have light tails, the diffusion is said to be normal or Fickian, with a variance of particle positions $\sigma_x^2$ which scales with time $t$ as $\sigma_x^2 \propto t$.
+However, if either of these distributions has a heavy-tail, the diffusion is called anomalous, with the variance of particle position scaling as $\sigma_x^2 \propto t^\gamma$ with $\gamma\neq 1$.
 In this expression, $\gamma <1$ is called sub-diffusion and $\gamma > 1$ is called super-diffusion.
-In a strongly assymmetric random walk as in bedload transport, heavy-tailed step length distributions imply super-diffusion, while heavy-tailed resting time distributions imply either super or sub-diffusion depending on the value of the tail parameter $\alpha$ \citep{Weeks1998}.
+In a strongly assymmetric random walk such as bedload transport, heavy-tailed step length distributions imply super-diffusion, while heavy-tailed resting time distributions imply either super or sub-diffusion depending on the value of the tail parameter $\alpha$ \citep{Weeks1996, Weeks1998}.
 
-A consensus has formed that step lengths in gravel-bed rivers are thin-tailed \citep{Hassan2013, Bradley2017} while bedload diffusion can be anomalous \citep{Nikora2002, Bradley2010, Martin2012, Zhang2012, Phillips2013, Fan2017}, suggesting heavy-tailed resting times are the source of anomalous diffusion \citep{Martin2012, Bradley2017}.
-This perspective highlights the mechanism of heavy-tailed resting times as an important consideration.
-A dominant hypothesis is that heavy-tailed resting times stem from sediment burial \citep[e.g.][]{Voepel2013, Martin2014, Bradley2017}.
+% consensus on heavy-tailed resting time and light-tailed step length driving anomalous diffusion
+% field experiments open questions as to what the mechanism creating heavy-tailed resting times is
+Tracer experiments in gravel bed rivers show anomalous diffusion \citep{Phillips2013, Martin2017}, light-tailed step length distributions \citep{Bradley2012, Hassan2013}, and heavy-tailed resting time distributions \citep{Voepel2013, Olinde2015, Pretzlav2017, Bradley2017}, forming a coherent experimental picture of super-diffusive bedload transport at long observation timescales \citep{Nikora2002, Martin2012}.
+However, these field studies do not resolve the mechanism generating heavy-tailed resting times \citep[e.g.][]{Bradley2017}, and the experimentally obtained resting time distributions are not entirely consistent with one another in form or characteristics, displaying different tail parameters $\alpha$ and sometimes truncation \citep[e.g.][]{Voepel2013} or tempering back to a light-tailed distribution at large times \citep[e.g.][]{Bradley2017}, which may be relics of necessarily limited observation periods \citep[e.g.][]{Bradley2017}.
+
+% hypothesis of burial
+% theoretical approaches
+% experimental support for the hypothesis
+% shortcomings of existing research
+A predominant hypothesis is that sediment burial is a mechanism generating heavy-tailed resting times \citep{Voepel2013,Martin2014}.
 Conceptually, when grains rest on the bed surface, material transported from upstream can deposit over top of them, burying them away from the flow and preventing their entrainment until the overlying material is removed, increasing sediment resting times and imparting a heavy tail to the distribution.
+Both \citet{Voepel2013} and \citet{Martin2014} created random-walk theories of local bed elevation and interpreted resting times as return periods from above in the bed elevation time-series, generating heavy-tailed distributions which are consistent with different experimental datasets, but inconsistent with one another.
+\citet{Voepel2013} explained the field data of \citet{Habersack2001}, deriving intially heavy-tailed distributions which temper to exponential decay at the largest resting times, while \citet{Martin2014} explained data from their own laboratory flume experiments, which are the first to directly resolve burial as the generating mechanism, deriving heavy-tailed power law distributions with no tempering and a tail parameter $\alpha \approx 1$.
+These theoretical developments are exciting, but their assumptions seem contingent on the datasets they strive to explain, meaning their generality can be called into question.
 
+% basic idea and purpose of the paper
+% you want to set a baseline for comparision -- the theoretically expected resting time distributions given perfect burial and no other factors at play
+% and develop a theory of bed elevation changes based upon stochastic sediment transport
+In this work, we approach the problem from a different angle, seeking a more general description.
+We link bed elevation changes to sediment transport in a joint stochastic model and compute resting time distributions as a consequence of the joint description.
+The key assumptions of our model are that (1) bedload erosion and deposition can be characterized by probabilities per unit time, or rates \citep[e.g.][]{Einstein1950, Ancey2008}, and (2) that these rates are contingent on the local bed elevation, encoding the property that the erosion of sediment is emphasized from regions of exposure while deposition is emphasized in regions of shelter \citep[e.g.][]{Sawai1987, Wang2007}.
+As we'll show, our theory supports heavy-tailed distributions with no tempering and a universal tail parameter $\alpha \approx 1.1$ for a particular non-dimensionalization of the resting time.
+\begin{comment}
 Although a handful of field studies have resolved heavy-tailed resting times \citep{Voepel2013, Olinde2015, Pretzlav2016, Bradley2017}, these do not resolve sediment burial and exhumation during floods, so they cannot discern whether burial is the mechanism generating heavy-tailed resting times.
 To our knowledge, only \citet{Voepel2013} and \citet{Martin2014} have provided direct support for the hypothesis that burial generates heavy-tailed resting times, although details of these works are inconsistent with one another.
 \citet{Martin2014} performed experiments in a narrow flume configured so grains formed a single layer in the cross-stream direction, providing direct resolution of sediment burial.
@@ -77,7 +100,7 @@ We believe the differences between these models deserve further theoretical clar
 In this paper, we leverage existing knowledge about bedload transport to study the resting times of coarse sediment under burial.
 We extend the stochastic bedload transport theory of \citet{Ancey2008} to include bed elevation changes, and we use this model to compute the resting time distribution for sediment undergoing burial.
 From this theory, we 
-
+\end{comment}
 
 
 \section{Theory}
@@ -249,6 +272,25 @@ Our assumptions derive a heavy-tailed power-law distribution of resting times wi
 However, in extension of the \citet{Martin2014} theory, our model reveals another timescale which fully collapses the power-law tails of the resting time distributions, suggesting a universal power-law should characterize the asymptotic resting times of sediment undergoing burial if the assumptions of our model are correct.
 This timescale includes an additional factor characterizing the dependence of entrainment and deposition probabilities on changes in local bed elevations.
 We hypothesize this new factor may explain some of the differences between field \citep[e.g.][]{Olinde2015} and laboratory \citep[e.g.][]{Martin2014} observations of resting time distributions, providing additional information to determine whether burial is the dominant mechanism of the heavy-tailed sediment resting times observed in natural channels.
+
+
+Pierce
+The model describes why Martin et al (2014) obtained incomplete collapse between their resting time distributions. They didn't include the $(z_1/l)^2$ type factor in their scaling time-scale
+It is a first joint stochastic description of bed elevations and bedload transport, mixing martin 2014 and ancey 2008. 
+It provides a mechanism for heavy-tailed resting times and implies super-diffusion of bedload and a virtual velocity of sediment which decreases toward zero with time. 
+ what else? help
+
+
+
+Hassan
+1.      Discuss what is special in the model and how it works. (most of point number 2)
+
+2.      Your point number 1
+
+3.      The last pargraph from the introduction
+
+4.      Your point number 3 with implications (What this means for the study of bedload (and channel morphology in streams). The implications should be short.
+
 
 \section{Conclusion}
 \begin{comment} 
