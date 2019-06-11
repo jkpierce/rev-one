@@ -2,39 +2,6 @@
 
 \bibitem [\protect \citeauthoryear {%
 Ancey%
-, B{\"{o}}hm%
-, Jodeau%
-\BCBL {}\ \BBA {} Frey%
-}{%
-Ancey%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
-}]{%
-Ancey2006}
-\APACinsertmetastar {%
-Ancey2006}%
-\begin{APACrefauthors}%
-Ancey, C.%
-, B{\"{o}}hm, T.%
-, Jodeau, M.%
-\BCBL {}\ \BBA {} Frey, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Statistical description of sediment transport
-  experiments}} {{Statistical description of sediment transport
-  experiments}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Physical Review E - Statistical, Nonlinear, and Soft
-  Matter Physics}{74}{1}{1--14}.
-\newblock
-\begin{APACrefDOI} \doi{10.1103/PhysRevE.74.011302} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Ancey%
 , Davison%
 , B{\"{o}}hm%
 , Jodeau%
@@ -128,6 +95,41 @@ Bennett, C\BPBI H.%
 \APACjournalVolNumPages{Journal of Applied Physics}{43}{6}{2727--2734}.
 \newblock
 \begin{APACrefDOI} \doi{10.1063/1.1661585} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+B{\"{o}}hm%
+, Ancey%
+, Frey%
+, Reboud%
+\BCBL {}\ \BBA {} Ducottet%
+}{%
+B{\"{o}}hm%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Bohm2004}
+\APACinsertmetastar {%
+Bohm2004}%
+\begin{APACrefauthors}%
+B{\"{o}}hm, T.%
+, Ancey, C.%
+, Frey, P.%
+, Reboud, J\BPBI L.%
+\BCBL {}\ \BBA {} Ducottet, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Fluctuations of the solid discharge of gravity-driven
+  particle flows in a turbulent stream}} {{Fluctuations of the solid discharge
+  of gravity-driven particle flows in a turbulent stream}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physical Review E - Statistical, Nonlinear, and Soft
+  Matter Physics}{69}{6 1}{1--13}.
+\newblock
+\begin{APACrefDOI} \doi{10.1103/PhysRevE.69.061307} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -509,31 +511,30 @@ Gillespie, D\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Habersack%
+Gordon%
+, Carmichael%
+\BCBL {}\ \BBA {} Isackson%
 }{%
-Habersack%
-}{%
-{\protect \APACyear {2001}}%
+Gordon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1972}}%
 }]{%
-Habersack2001}
+Gordon1972}
 \APACinsertmetastar {%
-Habersack2001}%
+Gordon1972}%
 \begin{APACrefauthors}%
-Habersack, H\BPBI M.%
+Gordon, R.%
+, Carmichael, J\BPBI B.%
+\BCBL {}\ \BBA {} Isackson, F\BPBI J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2001}{}{}.
+\APACrefYearMonthDay{1972}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Radio-tracking gravel particles in a large braided
-  river in New Zealand: A field test of the stochastic theory of bed load
-  transport proposed by Einstein}} {{Radio-tracking gravel particles in a large
-  braided river in New Zealand: A field test of the stochastic theory of bed
-  load transport proposed by Einstein}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {{Saltation of Plastic Balls in a 'One-Dimensional'
+  Flume}} {{Saltation of Plastic Balls in a 'One-Dimensional' Flume}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Hydrological Processes}{15}{3}{377--391}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/hyp.147} \end{APACrefDOI}
+\APACjournalVolNumPages{Water Resources Research}{8}{2}{444--458}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -862,35 +863,6 @@ Martin, R\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Meyer-Peter%
-\ \BBA {} M{\"{u}}ller%
-}{%
-Meyer-Peter%
-\ \BBA {} M{\"{u}}ller%
-}{%
-{\protect \APACyear {1948}}%
-}]{%
-MeyerPeter1948}
-\APACinsertmetastar {%
-MeyerPeter1948}%
-\begin{APACrefauthors}%
-Meyer-Peter, E.%
-\BCBT {}\ \BBA {} M{\"{u}}ller, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1948}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Formulas for Bed-Load Transport}} {{Formulas for
-  Bed-Load Transport}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Proceedings of the 2nd Meeting of the International
-  Association of Hydraulic Research}{}{}{39--64}.
-\newblock
-\begin{APACrefDOI} \doi{1948-06-07} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Nakagawa%
 \ \BBA {} Tsujimoto%
 }{%
@@ -1091,6 +1063,29 @@ Pretzlav, K\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Redner%
+}{%
+Redner%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Redner2007}
+\APACinsertmetastar {%
+Redner2007}%
+\begin{APACrefauthors}%
+Redner, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {{A guide to first-passage processes}} {{A guide to
+  first-passage processes}}.
+\newblock
+\APACaddressPublisher{Cambridge, UK}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sawai%
 }{%
 Sawai%
@@ -1112,6 +1107,41 @@ Sawai, K.%
 \newblock
 \APACjournalVolNumPages{Bull. Disas. Prev. Res. Inst., Kyoto Univ.}{37}{Part 1,
   No. 323}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Singh%
+, Fienberg%
+, Jerolmack%
+, Marr%
+\BCBL {}\ \BBA {} Foufoula-Georgiou%
+}{%
+Singh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Singh2009}
+\APACinsertmetastar {%
+Singh2009}%
+\begin{APACrefauthors}%
+Singh, A.%
+, Fienberg, K.%
+, Jerolmack, D\BPBI J.%
+, Marr, J.%
+\BCBL {}\ \BBA {} Foufoula-Georgiou, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Experimental evidence for statistical scaling and
+  intermittency in sediment transport rates}} {{Experimental evidence for
+  statistical scaling and intermittency in sediment transport rates}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Earth
+  Surface}{114}{1}{1--16}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2007JF000963} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1267,6 +1297,38 @@ Wong, M.%
 \APACjournalVolNumPages{Water Resources Research}{43}{3}{1--23}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2006WR005172} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wu%
+\ \protect \BOthers {.}}{%
+Wu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Wu2019}
+\APACinsertmetastar {%
+Wu2019}%
+\begin{APACrefauthors}%
+Wu, Z.%
+, Foufoula-Georgiou, E.%
+, Parker, G.%
+, Singh, A.%
+, Fu, X.%
+\BCBL {}\ \BBA {} Wang, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Analytical Solution for Anomalous Diffusion of Bedload
+  Tracers Gradually Undergoing Burial}} {{Analytical Solution for Anomalous
+  Diffusion of Bedload Tracers Gradually Undergoing Burial}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Earth
+  Surface}{124}{1}{21--37}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2018JF004654} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
