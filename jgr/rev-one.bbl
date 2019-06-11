@@ -258,6 +258,31 @@ Charru, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Church%
+}{%
+Church%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Church2017}
+\APACinsertmetastar {%
+Church2017}%
+\begin{APACrefauthors}%
+Church, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{What is the "active layer"?}} {{What is the "active
+  layer"?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resources Research}{53}{}{5--10}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2016WR019675.Received} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cox%
 \ \BBA {} Miller%
 }{%
@@ -1352,32 +1377,6 @@ Yalin, M\BPBI S.%
   Transport}}.
 \newblock
 \APACaddressPublisher{}{Pergamon Press}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Yang%
-\ \BBA {} Sayre%
-}{%
-Yang%
-\ \BBA {} Sayre%
-}{%
-{\protect \APACyear {1971}}%
-}]{%
-Yang1971}
-\APACinsertmetastar {%
-Yang1971}%
-\begin{APACrefauthors}%
-Yang, C\BPBI T.%
-\BCBT {}\ \BBA {} Sayre, W\BPBI W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1971}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Stochastic model for sand dispersion}} {{Stochastic
-  model for sand dispersion}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of the Hydraulics Division, ASCE}{97}{HY2}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
