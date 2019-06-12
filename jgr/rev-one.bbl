@@ -160,6 +160,37 @@ Bradley, D\BPBI N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+D\BPBI N.~Bradley%
+\ \BBA {} Tucker%
+}{%
+D\BPBI N.~Bradley%
+\ \BBA {} Tucker%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Bradley2013}
+\APACinsertmetastar {%
+Bradley2013}%
+\begin{APACrefauthors}%
+Bradley, D\BPBI N.%
+\BCBT {}\ \BBA {} Tucker, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The storage time, age, and erosion hazard of laterally
+  accreted sediment on the floodplain of a simulated meandering river}} {{The
+  storage time, age, and erosion hazard of laterally accreted sediment on the
+  floodplain of a simulated meandering river}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Earth
+  Surface}{118}{3}{1308--1319}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/jgrf.20083} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 N\BPBI D.~Bradley%
 \ \BBA {} Tucker%
 }{%
@@ -563,6 +594,34 @@ Gordon, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Habersack%
+}{%
+Habersack%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Habersack2001}
+\APACinsertmetastar {%
+Habersack2001}%
+\begin{APACrefauthors}%
+Habersack, H\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Radio-tracking gravel particles in a large braided
+  river in New Zealand: A field test of the stochastic theory of bed load
+  transport proposed by Einstein}} {{Radio-tracking gravel particles in a large
+  braided river in New Zealand: A field test of the stochastic theory of bed
+  load transport proposed by Einstein}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Hydrological Processes}{15}{3}{377--391}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/hyp.147} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hassan%
 \ \BBA {} Bradley%
 }{%
@@ -657,6 +716,36 @@ Hassan, M\BPBI A.%
   Surface}{118}{1}{155--165}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2012JF002374} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Heyman%
+, Boh{\'{o}}rquez%
+\BCBL {}\ \BBA {} Ancey%
+}{%
+Heyman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+Heyman2015}
+\APACinsertmetastar {%
+Heyman2015}%
+\begin{APACrefauthors}%
+Heyman, J.%
+, Boh{\'{o}}rquez, P.%
+\BCBL {}\ \BBA {} Ancey, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Exploring the physics of sediment transport in
+  non-uniform super-critical flows through a large dataset of particle
+  trajectories}} {{Exploring the physics of sediment transport in non-uniform
+  super-critical flows through a large dataset of particle
+  trajectories}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Geophys. Res:Earth Surf.}{submitted}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1000,35 +1089,6 @@ Paintal, A\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Pelosi%
-\ \BBA {} Parker%
-}{%
-Pelosi%
-\ \BBA {} Parker%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-Pelosi2014}
-\APACinsertmetastar {%
-Pelosi2014}%
-\begin{APACrefauthors}%
-Pelosi, A.%
-\BCBT {}\ \BBA {} Parker, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Morphodynamics of river bed variation with variable
-  bedload step length}} {{Morphodynamics of river bed variation with variable
-  bedload step length}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Earth Surface Dynamics}{2}{1}{243--253}.
-\newblock
-\begin{APACrefDOI} \doi{10.5194/esurf-2-243-2014} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Phillips%
 , Martin%
 \BCBL {}\ \BBA {} Jerolmack%
@@ -1214,6 +1274,34 @@ Swift, R\BPBI J.%
 \newblock
 \APACjournalVolNumPages{Bulletin of the Irish Mathematical
   Society}{48}{}{57--63}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tucker%
+\ \BBA {} Hancock%
+}{%
+Tucker%
+\ \BBA {} Hancock%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Tucker2010}
+\APACinsertmetastar {%
+Tucker2010}%
+\begin{APACrefauthors}%
+Tucker, G\BPBI E.%
+\BCBT {}\ \BBA {} Hancock, G\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Modelling landscape evolution}} {{Modelling landscape
+  evolution}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth Surface Processes and Landforms}{35}{}{28--50}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/esp} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
