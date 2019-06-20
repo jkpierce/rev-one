@@ -31,10 +31,6 @@ Ancey, C.%
 \newblock
 \APACjournalVolNumPages{Journal of Fluid Mechanics}{595}{2008}{83--114}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.journals.cambridge.org/abstract{\_}S0022112007008774}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1017/S0022112007008774} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -64,10 +60,6 @@ Ancey, C.%
   transport rates}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Fluid Mechanics}{744}{2014}{129--168}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.journals.cambridge.org/abstract{\_}S0022112014000743}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1017/jfm.2014.74} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
@@ -134,33 +126,6 @@ B{\"{o}}hm, T.%
 
 \bibitem [\protect \citeauthoryear {%
 D\BPBI N.~Bradley%
-}{%
-D\BPBI N.~Bradley%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-Bradley2017}
-\APACinsertmetastar {%
-Bradley2017}%
-\begin{APACrefauthors}%
-Bradley, D\BPBI N.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Direct Observation of Heavy-Tailed Storage Times of Bed
-  Load Tracer Particles Causing Anomalous Superdiffusion}} {{Direct Observation
-  of Heavy-Tailed Storage Times of Bed Load Tracer Particles Causing Anomalous
-  Superdiffusion}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Geophysical Research Letters}{44}{24}{12,227--12,235}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/2017GL075045} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-D\BPBI N.~Bradley%
 \ \BBA {} Tucker%
 }{%
 D\BPBI N.~Bradley%
@@ -188,6 +153,33 @@ Bradley, D\BPBI N.%
   Surface}{118}{3}{1308--1319}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/jgrf.20083} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+N\BPBI D.~Bradley%
+}{%
+N\BPBI D.~Bradley%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Bradley2017}
+\APACinsertmetastar {%
+Bradley2017}%
+\begin{APACrefauthors}%
+Bradley, N\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Direct Observation of Heavy-Tailed Storage Times of Bed
+  Load Tracer Particles Causing Anomalous Superdiffusion}} {{Direct Observation
+  of Heavy-Tailed Storage Times of Bed Load Tracer Particles Causing Anomalous
+  Superdiffusion}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{44}{24}{12,227--12,235}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2017GL075045} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -247,10 +239,6 @@ Celik, A\BPBI O.%
 \newblock
 \APACjournalVolNumPages{Journal of Fluid Mechanics}{741}{}{60--97}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.journals.cambridge.org/abstract{\_}S0022112013006320}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1017/jfm.2013.632} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -281,10 +269,6 @@ Charru, F.%
 \newblock
 \APACjournalVolNumPages{Journal of Fluid Mechanics}{519}{2004}{55--80}.
 \newblock
-\begin{APACrefURL}
-  \url{http://www.journals.cambridge.org/abstract{\_}S0022112004001028}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1017/S0022112004001028} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -311,6 +295,35 @@ Church, M.%
 \APACjournalVolNumPages{Water Resources Research}{53}{}{5--10}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/2016WR019675.Received} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Coleman%
+\ \BBA {} Nikora%
+}{%
+Coleman%
+\ \BBA {} Nikora%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+Coleman2009}
+\APACinsertmetastar {%
+Coleman2009}%
+\begin{APACrefauthors}%
+Coleman, S\BPBI E.%
+\BCBT {}\ \BBA {} Nikora, V\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Exner equation : A continuum approximation of a
+  discrete granular system}} {{Exner equation : A continuum approximation of a
+  discrete granular system}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resources Research}{45}{November 2008}{1--8}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2008WR007604} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -557,10 +570,6 @@ Gillespie, D\BPBI T.%
   {{Stochastic Simulation of Chemical Kinetics}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Annual Review of Physical Chemistry}{58}{1}{35--55}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.annualreviews.org/doi/10.1146/annurev.physchem.58.032806.104637}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1146/annurev.physchem.58.032806.104637}
   \end{APACrefDOI}
@@ -810,9 +819,6 @@ Heyman, J.%
 \APACjournalVolNumPages{Journal of Geophysical Research: Earth
   Surface}{119}{8}{1751--1767}.
 \newblock
-\begin{APACrefURL} \url{http://doi.wiley.com/10.1002/2013JF003003}
-  \end{APACrefURL}
-\newblock
 \begin{APACrefDOI} \doi{10.1002/2013JF003003.Received} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
@@ -970,9 +976,9 @@ Nakagawa, H.%
   Beds}}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {Hydraulic Problems Solved by Stochastic Methods: Second
-  International IAHR Symposium on Stochastic Hydraulics.} {Hydraulic problems
+  International IAHR Symposium on Stochastic Hydraulics} {Hydraulic problems
   solved by stochastic methods: Second international iahr symposium on
-  stochastic hydraulics.}
+  stochastic hydraulics}\ (\BPGS\ 293--320).
 \newblock
 \APACaddressPublisher{Lund, Sweden}{}.
 \PrintBackRefs{\CurrentBib}
@@ -1415,10 +1421,6 @@ Weeks, E\BPBI R.%
   walks with a quasi-geostrophic flow example}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Physica D: Nonlinear Phenomena}{97}{1-3}{291--310}.
-\newblock
-\begin{APACrefURL}
-  \url{http://linkinghub.elsevier.com/retrieve/pii/0167278996000826}
-  \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1016/0167-2789(96)00082-6} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}

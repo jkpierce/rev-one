@@ -12,50 +12,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: biblio.bib
-Repeated entry---line 6065 of file biblio.bib
+Repeated entry---line 5943 of file biblio.bib
  : @article{Heyman2015
  :                    ,
 I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 53 entries,
+You've used 54 entries,
             6951 wiz_defined-function locations,
-            1684 strings with 35944 characters,
-and the built_in function-call counts, 108482 in all, are:
-= -- 13366
-> -- 867
-< -- 5498
-+ -- 5760
-- -- 106
-* -- 7232
-:= -- 20193
-add.period$ -- 221
-call.type$ -- 53
-change.case$ -- 904
+            1686 strings with 36152 characters,
+and the built_in function-call counts, 110404 in all, are:
+= -- 13624
+> -- 886
+< -- 5597
++ -- 5866
+- -- 108
+* -- 7343
+:= -- 20579
+add.period$ -- 225
+call.type$ -- 54
+change.case$ -- 921
 chr.to.int$ -- 0
-cite$ -- 106
-duplicate$ -- 2887
-empty$ -- 4067
-format.name$ -- 1444
-if$ -- 20238
+cite$ -- 108
+duplicate$ -- 2928
+empty$ -- 4106
+format.name$ -- 1468
+if$ -- 20597
 int.to.chr$ -- 0
-int.to.str$ -- 159
+int.to.str$ -- 162
 missing$ -- 0
-newline$ -- 1425
-num.names$ -- 424
-pop$ -- 1584
+newline$ -- 1438
+num.names$ -- 432
+pop$ -- 1525
 preamble$ -- 1
-purify$ -- 212
+purify$ -- 216
 quote$ -- 0
-skip$ -- 6844
+skip$ -- 7055
 stack$ -- 0
-substring$ -- 6242
-swap$ -- 1697
-text.length$ -- 123
+substring$ -- 6369
+swap$ -- 1729
+text.length$ -- 131
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4560
+type$ -- 4640
 warning$ -- 0
-while$ -- 500
+while$ -- 508
 width$ -- 0
-write$ -- 1768
+write$ -- 1787
 (There was 1 error message)
