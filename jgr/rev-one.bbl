@@ -90,6 +90,36 @@ Bennett, C\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Bialik%
+, Nikora%
+\BCBL {}\ \BBA {} Rowi{\'{n}}ski%
+}{%
+Bialik%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Bialik2012}
+\APACinsertmetastar {%
+Bialik2012}%
+\begin{APACrefauthors}%
+Bialik, R\BPBI J.%
+, Nikora, V\BPBI I.%
+\BCBL {}\ \BBA {} Rowi{\'{n}}ski, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{3D Lagrangian modelling of saltating particles
+  diffusion in turbulent water flow}} {{3D Lagrangian modelling of saltating
+  particles diffusion in turbulent water flow}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Acta Geophysica}{60}{6}{1639--1660}.
+\newblock
+\begin{APACrefDOI} \doi{10.2478/s11600-012-0003-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 B{\"{o}}hm%
 , Ancey%
 , Frey%
@@ -298,35 +328,6 @@ Church, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Coleman%
-\ \BBA {} Nikora%
-}{%
-Coleman%
-\ \BBA {} Nikora%
-}{%
-{\protect \APACyear {2009}}%
-}]{%
-Coleman2009}
-\APACinsertmetastar {%
-Coleman2009}%
-\begin{APACrefauthors}%
-Coleman, S\BPBI E.%
-\BCBT {}\ \BBA {} Nikora, V\BPBI I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Exner equation : A continuum approximation of a
-  discrete granular system}} {{Exner equation : A continuum approximation of a
-  discrete granular system}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resources Research}{45}{November 2008}{1--8}.
-\newblock
-\begin{APACrefDOI} \doi{10.1029/2008WR007604} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Cox%
 \ \BBA {} Miller%
 }{%
@@ -400,6 +401,42 @@ Einstein, H\BPBI A.%
 \newblock
 \APACaddressInstitution{Washington, DC}{United States Department of
   Agriculture}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fan%
+, Singh%
+, Guala%
+, Foufoula-Georgiou%
+\BCBL {}\ \BBA {} Wu%
+}{%
+Fan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Fan2016}
+\APACinsertmetastar {%
+Fan2016}%
+\begin{APACrefauthors}%
+Fan, N.%
+, Singh, A.%
+, Guala, M.%
+, Foufoula-Georgiou, E.%
+\BCBL {}\ \BBA {} Wu, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Exploring a semimechanistic episodic Langevin model for
+  bed load transport: Emergence of normal and anomalous advection and diffusion
+  regimes}} {{Exploring a semimechanistic episodic Langevin model for bed load
+  transport: Emergence of normal and anomalous advection and diffusion
+  regimes}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resources Research}{52}{4}{3787--3814}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2016WR018704.Received} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -856,6 +893,59 @@ Heyman, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Horsthemke%
+\ \BBA {} Lefever%
+}{%
+Horsthemke%
+\ \BBA {} Lefever%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+Horsthemke1984}
+\APACinsertmetastar {%
+Horsthemke1984}%
+\begin{APACrefauthors}%
+Horsthemke, W.%
+\BCBT {}\ \BBA {} Lefever, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1984}.
+\newblock
+\APACrefbtitle {{Noise-Induced Transitions: Theory and Applications in Physics,
+  Chemistry, and Biology}} {{Noise-Induced Transitions: Theory and Applications
+  in Physics, Chemistry, and Biology}}.
+\newblock
+\APACaddressPublisher{}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hubbell%
+\ \BBA {} Sayre%
+}{%
+Hubbell%
+\ \BBA {} Sayre%
+}{%
+{\protect \APACyear {1964}}%
+}]{%
+Hubbell1964}
+\APACinsertmetastar {%
+Hubbell1964}%
+\begin{APACrefauthors}%
+Hubbell, D\BPBI W.%
+\BCBT {}\ \BBA {} Sayre, W\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1964}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Sand Transport Studies with Radioactive Tracers}}
+  {{Sand Transport Studies with Radioactive Tracers}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J. Hydr. Div.}{90}{HY3}{39--68}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Malmon%
 , Reneau%
 , Dunne%
@@ -1010,6 +1100,31 @@ Nakagawa, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Newman%
+}{%
+Newman%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Newman2005}
+\APACinsertmetastar {%
+Newman2005}%
+\begin{APACrefauthors}%
+Newman, M\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Power laws, Pareto distributions and Zipf's law}}
+  {{Power laws, Pareto distributions and Zipf's law}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Contemporary Physics}{46}{5}{323--351}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/00107510500052444} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Nikora%
 }{%
 Nikora%
@@ -1036,6 +1151,38 @@ Nikora, V.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2001WR000513} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nikora%
+, Goring%
+, McEwan%
+, Griffiths%
+\BCBL {}\ \BBA {} Nikora%
+}{%
+Nikora%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+Nikora2001}
+\APACinsertmetastar {%
+Nikora2001}%
+\begin{APACrefauthors}%
+Nikora, V.%
+, Goring, D.%
+, McEwan, I.%
+, Griffiths, G.%
+\BCBL {}\ \BBA {} Nikora.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Spatially averaged open-channel flow over rough bed}}
+  {{Spatially averaged open-channel flow over rough bed}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Hydraulic
+  Engineering}{127}{February}{123--133}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1200,6 +1347,30 @@ Redner, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Risken%
+}{%
+Risken%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+Risken1989}
+\APACinsertmetastar {%
+Risken1989}%
+\begin{APACrefauthors}%
+Risken, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1989}.
+\newblock
+\APACrefbtitle {{The Fokker-Planck Equation: Methods of Solution and
+  Applications}} {{The Fokker-Planck Equation: Methods of Solution and
+  Applications}}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{Ulm}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sawai%
 }{%
 Sawai%
@@ -1280,6 +1451,32 @@ Swift, R\BPBI J.%
 \newblock
 \APACjournalVolNumPages{Bulletin of the Irish Mathematical
   Society}{48}{}{57--63}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Torquato%
+}{%
+Torquato%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Torquato2018}
+\APACinsertmetastar {%
+Torquato2018}%
+\begin{APACrefauthors}%
+Torquato, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Perspective: Basic understanding of condensed phases of
+  matter via packing models}} {{Perspective: Basic understanding of condensed
+  phases of matter via packing models}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Chemical Physics}{149}{2}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1063/1.5036657} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1426,6 +1623,29 @@ Weeks, E\BPBI R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Weiss%
+}{%
+Weiss%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+Weiss1994}
+\APACinsertmetastar {%
+Weiss1994}%
+\begin{APACrefauthors}%
+Weiss, G\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle {{Aspects and applications of the random walk}} {{Aspects and
+  applications of the random walk}}.
+\newblock
+\APACaddressPublisher{Amsterdam}{North Holland}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Wong%
 , Parker%
 , DeVries%
@@ -1565,6 +1785,35 @@ Yano, K.%
   {Proceedings of the 12th congress iahr, vol 2.}\ (\BPGS\ 121--129).
 \newblock
 \APACaddressPublisher{Kyoto, Japan}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Meerschaert%
+\BCBL {}\ \BBA {} Packman%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Zhang2012}
+\APACinsertmetastar {%
+Zhang2012}%
+\begin{APACrefauthors}%
+Zhang, Y.%
+, Meerschaert, M\BPBI M.%
+\BCBL {}\ \BBA {} Packman, A\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Linking fluvial bed sediment transport across scales}}
+  {{Linking fluvial bed sediment transport across scales}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{39}{20}{1--6}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2012GL053476} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

@@ -12,50 +12,58 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: biblio.bib
-Repeated entry---line 5943 of file biblio.bib
+Repeated entry---line 6177 of file biblio.bib
  : @article{Heyman2015
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 8039 of file biblio.bib
+ : @article{Bialik2012
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12447 of file biblio.bib
+ : @phdthesis{Einstein1937
+ :                        ,
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 54 entries,
+You've used 63 entries,
             6951 wiz_defined-function locations,
-            1686 strings with 36152 characters,
-and the built_in function-call counts, 110404 in all, are:
-= -- 13624
-> -- 886
-< -- 5597
-+ -- 5866
-- -- 108
-* -- 7343
-:= -- 20579
-add.period$ -- 225
-call.type$ -- 54
-change.case$ -- 921
+            1753 strings with 37681 characters,
+and the built_in function-call counts, 127661 in all, are:
+= -- 15703
+> -- 1032
+< -- 6475
++ -- 6741
+- -- 128
+* -- 8491
+:= -- 23812
+add.period$ -- 261
+call.type$ -- 63
+change.case$ -- 1074
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 2928
-empty$ -- 4106
-format.name$ -- 1468
-if$ -- 20597
+cite$ -- 126
+duplicate$ -- 3396
+empty$ -- 4784
+format.name$ -- 1712
+if$ -- 23828
 int.to.chr$ -- 0
-int.to.str$ -- 162
+int.to.str$ -- 189
 missing$ -- 0
-newline$ -- 1438
-num.names$ -- 432
-pop$ -- 1525
+newline$ -- 1671
+num.names$ -- 504
+pop$ -- 1813
 preamble$ -- 1
-purify$ -- 216
+purify$ -- 252
 quote$ -- 0
-skip$ -- 7055
+skip$ -- 8117
 stack$ -- 0
-substring$ -- 6369
-swap$ -- 1729
-text.length$ -- 131
+substring$ -- 7302
+swap$ -- 2006
+text.length$ -- 150
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4640
+type$ -- 5360
 warning$ -- 0
-while$ -- 508
+while$ -- 591
 width$ -- 0
-write$ -- 1787
-(There was 1 error message)
+write$ -- 2078
+(There were 3 error messages)
