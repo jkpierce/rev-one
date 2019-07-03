@@ -597,6 +597,30 @@ Gaeuman, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gardiner%
+}{%
+Gardiner%
+}{%
+{\protect \APACyear {1983}}%
+}]{%
+Gardiner1983}
+\APACinsertmetastar {%
+Gardiner1983}%
+\begin{APACrefauthors}%
+Gardiner, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1983}.
+\newblock
+\APACrefbtitle {{Handbook of stochastic methods for physics, chemistry, and the
+  natural sciences}} {{Handbook of stochastic methods for physics, chemistry,
+  and the natural sciences}}.
+\newblock
+\APACaddressPublisher{}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gillespie%
 }{%
 Gillespie%
@@ -1383,39 +1407,6 @@ Pretzlav, K\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Recking%
-, Li{\'{e}}bault%
-, Peteuil%
-\BCBL {}\ \BBA {} Jolimet%
-}{%
-Recking%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2012}}%
-}]{%
-Recking2012}
-\APACinsertmetastar {%
-Recking2012}%
-\begin{APACrefauthors}%
-Recking, A.%
-, Li{\'{e}}bault, F.%
-, Peteuil, C.%
-\BCBL {}\ \BBA {} Jolimet, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Testing bedload transport equations with consideration
-  of time scales}} {{Testing bedload transport equations with consideration of
-  time scales}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Earth Surface Processes and
-  Landforms}{37}{7}{774--789}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/esp.3213} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Redner%
 }{%
 Redner%
@@ -1460,40 +1451,6 @@ Risken, H.%
   Applications}}\ (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{Ulm}{Springer-Verlag}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Saletti%
-, Molnar%
-, Zimmermann%
-, Hassan%
-\BCBL {}\ \BBA {} Church%
-}{%
-Saletti%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Saletti2015}
-\APACinsertmetastar {%
-Saletti2015}%
-\begin{APACrefauthors}%
-Saletti, M.%
-, Molnar, P.%
-, Zimmermann, A\BPBI E.%
-, Hassan, M\BPBI A.%
-\BCBL {}\ \BBA {} Church, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Temporal variability and memory in sediment transport
-  in an experimental step-pool channel}} {{Temporal variability and memory in
-  sediment transport in an experimental step-pool channel}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resour. Res.}{51}{}{1649--1670}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/2015WR017096.Received} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

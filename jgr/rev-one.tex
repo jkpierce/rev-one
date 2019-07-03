@@ -244,7 +244,7 @@ Comparing panels (a) and (c) shows the resting time distributions scale with the
 However, as shown in panels (b) and (d), a characteristic timescale $T_0$ can be found to collapse away both of these differences.
 \begin{figure}[t!]
 	\includegraphics[width=\linewidth,keepaspectratio]{./figures/montage1.pdf}
-	\caption{Resting time statistics scale differently with transport conditions and the bed elevation variance (i.e., $l$). Panel (a) shows differing flow conditions at a fixed $l$ value, while panel (c) shows fixed flow conditions at differing $l$. When scaled by $T_0$ (\ref{eq:time}), both types of difference collapse in the tails of the distributions, as shown in panels (b) and (d). In panels (b) and (d), the black dotted lines indicate a power law decay of the collapsed tails having parameter $\alpha\approx1.18$ .}
+	\caption{Resting time statistics scale differently with transport conditions and the bed elevation variance. Panel (a) shows differing flow conditions at a fixed $l$ value, while panel (c) shows fixed flow conditions at differing $l$. When scaled by $T_0$ (\ref{eq:time}), both types of difference collapse in the tails of the distributions, as shown in panels (b) and (d). In panels (b) and (d), the black dotted lines indicate a power law decay of the collapsed tails having parameter $\alpha\approx1.18$ .}
 	\label{fig:cdfs}
 \end{figure}
 
@@ -274,36 +274,59 @@ Two key contributions of this work are: (1) it predicts resting time distributio
 In this section, we will link our work to earlier research and detail these two contributions. 
 
 % C) discuss the link to Martin and to Ancey
-The link of our theory to earlier descriptions of bedload activities by \citet{Ancey2008} and bed elevations by \citet{Martin2014} follow as particular limit cases of (\ref{eq:master}).
-The \citet{Ancey2008} bedload theory is obtained in the limit of vanishing bed elevation fluctuations $l\ll z_1$ (figure \ref{fig:var}).
-In this case, we can neglect $z_1 z(m)/(2l)^2$ in comparison to $1$ in (\ref{eq:rate5}-\ref{eq:rate6}).
-Taking account of this change in (\ref{eq:master}), summing over $m$, and noting that $n$ and $m$ are independent in the limit, derives the master equation of \citet{Ancey2008} for the bedload activity distribution.
-Likewise, \citet{Martin2014} bed elevation theory is obtained in the limit of vanishing bedload activity fluctuations.
-Writing
-\be n = \bra n \ket + \delta n \label{eq:mft}, \ee
-where $\delta n$ are the fluctuations of $n$,  substituting this into (\ref{eq:master}), taking $m_0=0$ (without any loss of generality), and summing the resulting equations over $n$, gives
+Our theory reproduces earlier descriptions of bedload activities by \citet{Ancey2008} and bed elevations by \citet{Martin2014} after taking mean field limits of (\ref{eq:master}).
+The \citet{Ancey2008} bedload theory is obtained when bed elevation fluctuations $\delta m$ are small: $m \approx m_0$.
+Taking account of this change in (\ref{eq:master}) derives the master equation of \citet{Ancey2008} for the bedload activity distribution $P(n,t)$.
+Similarly, the \citet{Martin2014} bed elevation theory is obtained when bedload activity fluctuations $\delta n$ are small: $n \approx \bra n \ket$.
+In this case, identifying the mean entrainment and deposition rates as $E =\lambda_0 + \mu_0 \bra n \ket$ and $D = \sigma_0 \bra n \ket$, and using the steady-state transport condition $E=D$ \citep[e.g.][]{Einstein1950} obtains
 \be \frac{\partial}{\partial t}P(m,t) =  E \Big\{ \Big[1 +\Big(\frac{z_1}{2 l}\Big)^2m\Big]P(m+1,t) +  \Big[1 -\Big(\frac{z_1}{2 l}\Big)^2m\Big]P(m-1,t) - 2P(m,t)\Big\}, \label{eq:ou}\ee
-where we have neglected all terms involving $\delta n$, used the independence of $n$ and $m$ in the limit, and leveraged $E=D$ for steady-state transport \citep[e.g.][]{Einstein1950}.
-This is a discrete analogue of the mean-reverting random walk used (in continuum form) by \citet{Martin2014} to model bed elevation changes.
+This is a discrete state analogue of the mean-reverting random walk used by \citet{Martin2014} to model bed elevation changes.
 
 % D) Discuss differences with the martin theory
 Differences between our bed elevation statistics and those predicted by \citet{Martin2014} (i.e., equation \ref{eq:ou}) are induced by $\delta n$ -- the bedload activity fluctuations.
-When bedload fluctuations are relatively small $|\delta n/\bra n \ket|<1,$ we expect the \citet{Martin2014} theory to be an excellent description of bed elevation changes, as it follows naturally from our joint treatment.
+When bedload fluctuations are relatively small $|\delta n/\bra n \ket|<1,$ we expect the \citet{Martin2014} theory to be an excellent description of bed elevation time series, as it follows naturally from a mean field limit of our theory based upon individual sediment motions.
 However, bedload fluctuations are often relatively large.
 For example, in the \citet{Ancey2008} experiments, $|\delta n/\bra n \ket|$ takes instantaneous values of up to $3$ or $5$.
-In this case, we expect the approximation (\ref{eq:ou}) will provide a poor description of bed elevation statistics.
-Although  (\ref{eq:ou}) and (\ref{eq:master}) both generate Gaussian bed elevation distributions, they generate very different correlations in the bed elevation time series.
-The Ornstein-Uhlenbeck process used by \citet{Martin2014} (i.e., \ref{eq:mft}) has an exponential correlation function \citep[e.g.][]{Horsthemke1984,Risken1989}, but when we compute correlations from our simulation data, we find clear departures from this; the correlation functions of bed elevation stemming from (\ref{eq:master}) decay much more slowly than exponential.
-We conclude bedload fluctuations will generally induce much longer temporal correlations in the bed elevation time-series than those predicted by Ornstein-Uhlenbeck theory.
+When this is true we expect the approximation (\ref{eq:ou}) provides a poor description of bed elevation statistics.
+Although (\ref{eq:ou}) and (\ref{eq:master}) both generate Gaussian bed elevation distributions, they imply very different correlations in the bed elevation time series.
+The Ornstein-Uhlenbeck process used by \citet{Martin2014} (\ref{eq:ou}) has an exponential correlation function \citep[e.g.][]{Horsthemke1984,Risken1989}.
+In contrast, we find correlation functions from our simulations which decay more slowly than exponential.
+This implies bedload fluctuations can induce longer correlations in bed elevation time-series than an Ornstein-Uhlenbeck theory can produce.
 
 % E) discuss your key conclusions on resting time distributions and bedload diffusion / discuss relationship to field studies and laboratory experiments
-Our computed resting time distributions (figure \ref{fig:cdfs}) and their properties with special emphasis on the implications of these results for bedload diffusion.
-To summarize, we have found upon scaling by the $T_0$ -- a timescale relating to the characteristic speed of bed elevation changes -- that resting times for sediment undergoing burial should decay as a heavy-tailed power law with universal tail parameter $\alpha = 1.18 \pm 0.32$.
-For a general asymptotic power law, if $\alpha>1$, neither the mean or variance of the resting time will converge, while if $1<\alpha <2$, the mean will converge while the variance will not \citep[e.g.][]{Bradley2017}.
-Within our computational error, which stems from the finite duration of our simulations and the log-likelihood estimation \citep[e.g.][]{Newman2005}, we cannot conclude whether the mean resting time will diverge, but we can conclude the variance will diverge.
-We can also expect anomalous super-diffusion at long time-scales.
+Our computed resting time distributions (figure \ref{fig:cdfs}) show asymptotic power law tails with parameter $\alpha = 1.18 \pm 0.32$ after scaling by $T_0$.
+%These decay more rapidly than those with $\alpha \approx 1$ identified by \citet{Martin2014}.
+For a general power law, if $\alpha>1$, neither the mean or variance of the resting time will converge, while if $1<\alpha <2$, the mean will converge while the variance will not \citep[e.g.][]{Bradley2017}.
+Within our computational uncertainty, which stems from the finite duration of our simulations and the log-likelihood estimation \citep[e.g.][]{Newman2005}, we are unable to conclude whether the mean resting time will diverge, but we can conclude the variance will diverge.
+This is a violation of the central limit theorem for the bedload motion, and we can expect anomalous super-diffusion at long timescales.
 According to \citet{Weeks1998}, if the step length distribution has a light tail \citep[e.g.][]{Hassan2013}, our computed power-law resting times are sufficiently heavy-tailed to imply diffusion scaling as either $\sigma_x^2 \propto t^{3-\alpha} \approx t^{\{1.82 \pm 0.32 \}}$ or $\sigma_x^2 \propto t^{2\alpha} \approx t^{\{3.64\pm 1.28\}}$ at asymptotically large times \citep[e.g.][]{Bradley2017}.
 In either case, the process of sediment burial induces an extreme super-diffusion of bedload: at long timescales, some grains will continue to transport downstream in alternate motion-rest sequences while others will become trapped under the bed for relatively very long periods of time, driving a rapid spreading of the population.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{comment}
+
+
+
+
+
+
+
+
+
+
+
 However, we emphasize this is long-time diffusive scaling only.
 In fact, the conclusions of \citet{Weeks1998} are derived entirely from asymptotic arguments.
 \citet{Nikora2001,Nikora2002} set an expectation of at least three ranges of bedload diffusion called local, intermediate, and global as a result of the scale dependence of the various processes at play in bedload motions, such as collisions, turbulent fluctuations, and burial.
@@ -464,7 +487,7 @@ We speculate that the stochastic analogue of this issue could be easier to under
 
 
 
-
+\end{comment}
 
 
 
