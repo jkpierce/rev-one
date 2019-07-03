@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: rev-one.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -12,6 +12,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: biblio.bib
+Repeated entry---line 1984 of file biblio.bib
+ : @article{Saletti2015
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 6177 of file biblio.bib
  : @article{Heyman2015
  :                    ,
@@ -24,46 +28,47 @@ Repeated entry---line 12447 of file biblio.bib
  : @phdthesis{Einstein1937
  :                        ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 63 entries,
+You've used 66 entries,
             6951 wiz_defined-function locations,
-            1753 strings with 37681 characters,
-and the built_in function-call counts, 127661 in all, are:
-= -- 15703
-> -- 1032
-< -- 6475
-+ -- 6741
-- -- 128
-* -- 8491
-:= -- 23812
-add.period$ -- 261
-call.type$ -- 63
-change.case$ -- 1074
+            1774 strings with 39592 characters,
+and the built_in function-call counts, 134851 in all, are:
+= -- 16549
+> -- 1101
+< -- 6878
++ -- 7162
+- -- 134
+* -- 9009
+:= -- 25186
+add.period$ -- 273
+call.type$ -- 66
+change.case$ -- 1125
 chr.to.int$ -- 0
-cite$ -- 126
-duplicate$ -- 3396
-empty$ -- 4784
-format.name$ -- 1712
-if$ -- 23828
+cite$ -- 132
+duplicate$ -- 3604
+empty$ -- 5031
+format.name$ -- 1838
+if$ -- 25119
 int.to.chr$ -- 0
-int.to.str$ -- 189
+int.to.str$ -- 198
 missing$ -- 0
-newline$ -- 1671
-num.names$ -- 504
-pop$ -- 1813
+newline$ -- 1764
+num.names$ -- 528
+pop$ -- 1891
 preamble$ -- 1
-purify$ -- 252
+purify$ -- 264
 quote$ -- 0
-skip$ -- 8117
+skip$ -- 8523
 stack$ -- 0
-substring$ -- 7302
-swap$ -- 2006
-text.length$ -- 150
+substring$ -- 7745
+swap$ -- 2131
+text.length$ -- 156
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5360
+type$ -- 5600
 warning$ -- 0
-while$ -- 591
+while$ -- 635
 width$ -- 0
-write$ -- 2078
-(There were 3 error messages)
+write$ -- 2207
+(There were 4 error messages)
