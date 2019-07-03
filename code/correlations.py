@@ -1,30 +1,30 @@
+from scipy.interpolate import interp1d
+from scipy.signal import correlate
 import numpy as np
-import scipy
-from scipy import signal
+import sys
 
+# load the data, crop it, mean shift it
+filename = sys.argv[1]
+dats = np.load(filename,mmap_mode='r')
+m = dats[:,1]
+t = dats[:,2]
+time = 500*3600 # 500 hrs
+m = m[t<time]
+t = t[t<time]
+m-= m.mean()
+print('data loaded')
 
+# resample it
+dt = 0.5
+t1 = np.arange(0,time,dt)
+f1 = interp1d(t,m,fill_value='extrapolate')
+m1 = f1(t1)
+print('data resampled')
 
-def autocorr(x):
-    result = np.correlate(x, x, mode='full')
-    return result[result.size//2:]/result.max()
+# compute the correlation function
+cc = correlate(m1,m1)[-len(m1):]
+cc = cc/cc.max()
+print('correlation computed')
 
-print('go!')
-corrs={}
-files = ['../data/flow_a-l_0.6-time_1500.0hr_CAT.npy'] # temporary
-time = 10*3600 # total seconds to include
-dt = 5 # sampling interval in seconds 
-N = int(time/dt) 
-
-for f in files:
-    _,m,t = np.load(f,mmap_mode='r').T
-    mm = m[t<time] 
-    tt = np.arange(0,N*dt,dt)
-    mm = scipy.signal.resample(mm,N)
-    mm = mm - mm.mean()
-    cc = autocorr(mm)
-    tt = tt[:cc.size]
-    print(tt.size,cc.size)
-    corrs['f']=[tt,cc]
-    
-np.save('../correlations',corrs)
-
+out = [t1,cc]
+np.save(filename[:-4]+'_corr',out)
