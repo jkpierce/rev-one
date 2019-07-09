@@ -299,6 +299,34 @@ Church, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Church%
+\ \BBA {} Ferguson%
+}{%
+Church%
+\ \BBA {} Ferguson%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Church2015}
+\APACinsertmetastar {%
+Church2015}%
+\begin{APACrefauthors}%
+Church, M.%
+\BCBT {}\ \BBA {} Ferguson, R\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Morphodynamics: Rivers beyond steady state}}
+  {{Morphodynamics: Rivers beyond steady state}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resources Research}{51}{4}{1883--1897}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2014WR016862} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cox%
 \ \BBA {} Miller%
 }{%
@@ -695,6 +723,35 @@ Gillespie, D\BPBI T.%
 \newblock
 \begin{APACrefDOI} \doi{10.1146/annurev.physchem.58.032806.104637}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gomez%
+\ \BBA {} Church%
+}{%
+Gomez%
+\ \BBA {} Church%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+Gomez1989}
+\APACinsertmetastar {%
+Gomez1989}%
+\begin{APACrefauthors}%
+Gomez, B.%
+\BCBT {}\ \BBA {} Church, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{An assessment of bed load sediment transport formulae
+  for gravel bed rivers}} {{An assessment of bed load sediment transport
+  formulae for gravel bed rivers}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resources Research}{25}{6}{1161--1186}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/WR025i006p01161} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1410,6 +1467,72 @@ Pretzlav, K\BPBI L.%
 \unskip\
 \newblock
 \APACaddressSchool {}{University of Texas}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Recking%
+, Li{\'{e}}bault%
+, Peteuil%
+\BCBL {}\ \BBA {} Jolimet%
+}{%
+Recking%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Recking2012}
+\APACinsertmetastar {%
+Recking2012}%
+\begin{APACrefauthors}%
+Recking, A.%
+, Li{\'{e}}bault, F.%
+, Peteuil, C.%
+\BCBL {}\ \BBA {} Jolimet, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Testing bedload transport equations with consideration
+  of time scales}} {{Testing bedload transport equations with consideration of
+  time scales}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth Surface Processes and
+  Landforms}{37}{7}{774--789}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/esp.3213} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Recking%
+\ \protect \BOthers {.}}{%
+Recking%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Recking2016}
+\APACinsertmetastar {%
+Recking2016}%
+\begin{APACrefauthors}%
+Recking, A.%
+, Piton, G.%
+, Vazquez-tarrio, D.%
+, Parker, G.%
+, Etgr, U\BPBI R.%
+, Universit{\'{e}}, I.%
+\BDBL {}Martin, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Quantifying the Morphological Print of Bedload
+  Transport}} {{Quantifying the Morphological Print of Bedload
+  Transport}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth Surface Processes and
+  Landforms}{41}{6}{809--822}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/esp.3869} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

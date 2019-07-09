@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: rev-one.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -16,6 +16,10 @@ Repeated entry---line 492 of file biblio.bib
  : @phdthesis{Einstein1937
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 6663 of file biblio.bib
+ : @article{Recking2016
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 7938 of file biblio.bib
  : @article{Heyman2015
  :                    ,
@@ -24,50 +28,60 @@ Repeated entry---line 11458 of file biblio.bib
  : @article{Larsen2016
  :                    ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 11851 of file biblio.bib
+ : @article{Church2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12382 of file biblio.bib
+ : @article{Gomez1989
+ :                   ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 12854 of file biblio.bib
  : @phdthesis{Saletti2016
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Phillip2013"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 63 entries,
+You've used 67 entries,
             6951 wiz_defined-function locations,
-            1749 strings with 39419 characters,
-and the built_in function-call counts, 128331 in all, are:
-= -- 15838
-> -- 1045
-< -- 6475
-+ -- 6728
-- -- 126
-* -- 8505
-:= -- 23786
-add.period$ -- 264
-call.type$ -- 63
-change.case$ -- 1075
+            1776 strings with 40206 characters,
+and the built_in function-call counts, 136302 in all, are:
+= -- 16784
+> -- 1123
+< -- 6851
++ -- 7122
+- -- 134
+* -- 9054
+:= -- 25208
+add.period$ -- 279
+call.type$ -- 67
+change.case$ -- 1143
 chr.to.int$ -- 0
-cite$ -- 126
-duplicate$ -- 3410
-empty$ -- 4813
-format.name$ -- 1726
-if$ -- 24030
+cite$ -- 134
+duplicate$ -- 3663
+empty$ -- 5133
+format.name$ -- 1873
+if$ -- 25525
 int.to.chr$ -- 0
-int.to.str$ -- 189
+int.to.str$ -- 201
 missing$ -- 0
-newline$ -- 1678
-num.names$ -- 506
-pop$ -- 1788
+newline$ -- 1792
+num.names$ -- 538
+pop$ -- 1896
 preamble$ -- 1
-purify$ -- 252
+purify$ -- 268
 quote$ -- 0
-skip$ -- 8279
+skip$ -- 8783
 stack$ -- 0
-substring$ -- 7295
-swap$ -- 2011
-text.length$ -- 158
+substring$ -- 7721
+swap$ -- 2165
+text.length$ -- 166
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5488
+type$ -- 5808
 warning$ -- 0
-while$ -- 591
+while$ -- 638
 width$ -- 0
-write$ -- 2084
-(There were 4 error messages)
+write$ -- 2231
+(There were 7 error messages)
