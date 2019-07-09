@@ -242,6 +242,38 @@ Charru, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Chartrand%
+, Jellinek%
+, Hassan%
+\BCBL {}\ \BBA {} Ferrer-Boix%
+}{%
+Chartrand%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Chartrand2019}
+\APACinsertmetastar {%
+Chartrand2019}%
+\begin{APACrefauthors}%
+Chartrand, S.%
+, Jellinek, A.%
+, Hassan, M.%
+\BCBL {}\ \BBA {} Ferrer-Boix, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{What controls the disequilibrium condition of
+  gravel-bed streams?}} {{What controls the disequilibrium condition of
+  gravel-bed streams?}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth Surface Processes and Landforms}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/esp.4695} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Church%
 }{%
 Church%
@@ -372,6 +404,39 @@ Einstein, H\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Elgueta-Astaburuaga%
+\ \BBA {} Hassan%
+}{%
+Elgueta-Astaburuaga%
+\ \BBA {} Hassan%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Elgueta-Astaburuaga2019}
+\APACinsertmetastar {%
+Elgueta-Astaburuaga2019}%
+\begin{APACrefauthors}%
+Elgueta-Astaburuaga, M\BPBI A.%
+\BCBT {}\ \BBA {} Hassan, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Sediment storage, partial transport, and the evolution
+  of an experimental gravel bed under changing sediment supply regimes}}
+  {{Sediment storage, partial transport, and the evolution of an experimental
+  gravel bed under changing sediment supply regimes}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geomorphology}{330}{}{1--12}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.geomorph.2018.12.018}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.geomorph.2018.12.018} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Fathel%
 , Furbish%
 \BCBL {}\ \BBA {} Schmeeckle%
@@ -400,6 +465,35 @@ Fathel, S\BPBI L.%
   Surface}{120}{11}{2298--2317}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/2015JF003552} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ferrer-Boix%
+\ \BBA {} Hassan%
+}{%
+Ferrer-Boix%
+\ \BBA {} Hassan%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Ferrer-Boix2015}
+\APACinsertmetastar {%
+Ferrer-Boix2015}%
+\begin{APACrefauthors}%
+Ferrer-Boix, C.%
+\BCBT {}\ \BBA {} Hassan, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Channel adjustments to a succession of water pulses in
+  gravel bed rivers}} {{Channel adjustments to a succession of water pulses in
+  gravel bed rivers}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resources Research}{51}{}{8773--8790}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1752-1688.1969.tb04897.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -631,6 +725,31 @@ Gordon, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Haken%
+}{%
+Haken%
+}{%
+{\protect \APACyear {1983}}%
+}]{%
+Haken1983}
+\APACinsertmetastar {%
+Haken1983}%
+\begin{APACrefauthors}%
+Haken, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1983}.
+\newblock
+\APACrefbtitle {{Synergetics, an Introduction: Nonequilibrium Phase Transitions
+  and Self-Organization in Physics}} {{Synergetics, an Introduction:
+  Nonequilibrium Phase Transitions and Self-Organization in Physics}}\
+  (\PrintOrdinal{3rd rev. e}\ \BEd).
+\newblock
+\APACaddressPublisher{New York}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hassan%
 \ \BBA {} Bradley%
 }{%
@@ -690,6 +809,42 @@ Hassan, M\BPBI A.%
 \APACjournalVolNumPages{Water Resources Research}{27}{4}{503--511}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/90WR02762} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hassan%
+\ \protect \BOthers {.}}{%
+Hassan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Hassan2008}
+\APACinsertmetastar {%
+Hassan2008}%
+\begin{APACrefauthors}%
+Hassan, M\BPBI A.%
+, Smith, B\BPBI J.%
+, Hogan, D\BPBI L.%
+, Luzi, D\BPBI S.%
+, Zimmermann, A\BPBI E.%
+\BCBL {}\ \BBA {} Eaton, B\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Sediment storage and transport in coarse bed streams:
+  scale considerations}} {{Sediment storage and transport in coarse bed
+  streams: scale considerations}}.{\BBCQ}
+\newblock
+\BIn{} H.~Habersack\ \BBA {} H.~Piegay\ (\BEDS), \APACrefbtitle {Gravel-Bed
+  Rivers 8: From Process Understanding to River Restoration} {Gravel-bed rivers
+  8: From process understanding to river restoration}\ (\BVOL~11, \BPGS\
+  473--496).
+\newblock
+\APACaddressPublisher{}{Elsevier B.V}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0928-2025(07)11137-8} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -879,6 +1034,36 @@ Hubbell, D\BPBI W.%
   {{Sand Transport Studies with Radioactive Tracers}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{J. Hydr. Div.}{90}{HY3}{39--68}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Larsen%
+\ \protect \BOthers {.}}{%
+Larsen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Larsen2016}
+\APACinsertmetastar {%
+Larsen2016}%
+\begin{APACrefauthors}%
+Larsen, L\BPBI G.%
+, Eppinga, M\BPBI B.%
+, Passalacqua, P.%
+, Getz, W\BPBI M.%
+, Rose, K\BPBI A.%
+\BCBL {}\ \BBA {} Liang, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Appropriate complexity landscape modeling}}
+  {{Appropriate complexity landscape modeling}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth-Science Reviews}{160}{}{111--130}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.earscirev.2016.06.016} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1333,34 +1518,6 @@ Singh, A.%
   Surface}{114}{1}{1--16}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2007JF000963} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Sun%
-\ \BBA {} Donahue%
-}{%
-Sun%
-\ \BBA {} Donahue%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-Sun2000}
-\APACinsertmetastar {%
-Sun2000}%
-\begin{APACrefauthors}%
-Sun, Z.%
-\BCBT {}\ \BBA {} Donahue, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Statistically derived bedload formula for any fraction
-  of nonuniform sediment}} {{Statistically derived bedload formula for any
-  fraction of nonuniform sediment}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Hydraulic
-  Engineering}{126}{February}{105--111}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
