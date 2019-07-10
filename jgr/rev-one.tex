@@ -38,7 +38,7 @@
 \end{keypoints}
 
 \begin{abstract}
-We present a model describing local bedload transport and bed elevation changes as a joint stochastic process and use it to derive resting time distributions for sediment undergoing burial.
+We present a model of bedload transport and bed elevation changes as a joint stochastic process and use it to derive resting time distributions for sediment undergoing burial.
 Our model predicts heavy-tailed power-law distributions of resting times with tail behavior completely characterized by the mean erosion rate and its scaling with bed elevation changes.
 Resting time distributions of sediment undergoing burial are remarkably independent of bedload fluctuations.
 Drawing upon concepts from the stochastic physics literature, we hypothesize this results from the disparate characteristic timescales of bedload activity and bed elevation fluctuations.
@@ -46,35 +46,26 @@ Drawing upon concepts from the stochastic physics literature, we hypothesize thi
 
 \section{Introduction}
 
-The majority of classic studies into fluvial sediment transport have attempted to relate the bulk downstream flux of bedload to the average flow and sediment characteristics \citep[e.g.][]{Yalin1972}.
-This approach was originally developed for sand-bed streams, so its application to gravel-bed streams may be questioned, as these can express appreciable spatial and temporal variations in flow and sediment characteristics \citep[e.g.][]{Hassan2013}, and
-no steady state at all. 
+The classical approach to quantify sediment transport in rivers relates the bulk downstream flux of bedload to average characteristics of the sediment and flow \citep[e.g.][]{Yalin1972}.
+This approach was originally developed for sand-bed channels, but its extension to gravel-bed rivers presents difficulties \citep[e.g.][]{Hassan2013}.
+Gravel-bed rivers can exhibit wide spatial and temporal variations in sediment and flow characteristics \citep[e.g.][]{Hassan2008}, meaning local and average values may not correspond.
+In addition, these rivers are often in a state of active adjustment to episodic events and disturbances \citep[e.g.][]{Church2015}, meaning average characteristics may be undefined.
+In this context, the bulk approach can perform poorly; studies showing errors of several orders of magnitude are well-known in the literature \citep[e.g.][]{Gomez1989,Recking2012}.
 
-- approach originally developed for sand rivers. maybe not good for gravel
-- predictions can often deviate by 2 orders of magnitude in these streams
-- the prevalence of temporal and spatial variability in flow and sediment properties undermines its key assumption
+An alternative approach is to relate bedload transport to the displacement patterns of individual grains \citep[e.g.][]{Hassan2013}.
+In principle, this approach circumvents issues with average characteristics of gravel-bed rivers and re-frames bedload transport in terms of deterministic mechanics.
+In practice, measuring or predicting the forces acting on individual grains as they interact with the flow, bed, and other grains is not possible.
+This has motivated stochastic models of individual motions, whereby displacement patterns of grains are conceptualized as random walks \citep[e.g.][]{Weiss1994}.
+In these models, displacement is the result of alternate step-rest sequences where step lengths and resting times are random variables drawn from statistical distributions \citep{Einstein1937, Yano1969, Nakagawa1976, Hassan1991, Bradley2012}, so the alternative approach understands bedload transport as a stochastic process.
 
-
-
-
-
-
- yet the relevance of this approach to environmental problems is limited, as many contemporary issues require knowledge of the differences between motions of individual grains, and not just their average motion characteristics.
-For example, the export of contaminants from channels \citep[e.g.][]{Malmon2005} and the morphological response of channels to ecological restoration efforts \citep[e.g.][]{Gaeuman2017} or to changes in hydrology or sediment supply \citep[e.g.][]{Hassan2017} is not determined by bulk bedload fluxes, highlighting individual motions of bedload as an important topic for geophysics research.
-
-A significant complication is that individual grains transport within a noisy environment, with noise sources ranging across spatial and temporal scales from smaller scale fluid turbulence \citep{Celik2014} and variability in the arrangement of bed surface grains \citep{Gordon1972}, to larger scale channel morphology changes \citep{Hassan2017} and unsteady watershed hydrology \citep{}.
-As a result, the transport characteristics of individual grains are not deterministic \citep[e.g.][]{Einstein1937}, even in the most controlled laboratory experiments \citep[e.g.][]{Charru2004, Bohm2004, Fathel2015, Heyman2016}.
-
-In response to this, researchers have long considered probabilistic theories of individual motions based on random walk concepts, whereby bedload motions are approximated as alternating sequences of steps and rests, with step lengths and resting times treated as random variables drawn from statistical distributions \citep{Einstein1937, Yano1969, Nakagawa1976, Hassan1991, Bradley2012}.
-In these theories, differences between the random motions of one grain and the next imply bedload diffusion, or a spreading apart of grains through time.
-Over long timescales, the diffusion characteristics predicted by these models critically differ depending on whether the step length and resting time distributions have light or heavy tails \citep[e.g.][]{Bradley2017}.
-
+In the stochastic approach, differences between the random-walk motions of one grain and the next imply bedload diffusion, or a spreading apart of grains through time.
+Over long timescales, the diffusion characteristics predicted by these models critically differ depending on whether the step length and resting time distributions have light or heavy tails \citep[e.g.][]{Weeks1998}.
 Heavy-tailed distributions have exceedance functions $P(X>x) \sim x^{-\alpha}$ with tail parameters $\alpha < 2$, meaning large values of $x$ are relatively common, while light-tailed distributions have $\alpha \geq 2$, meaning large values of $x$ are relatively rare.
-If both resting time and step distance distributions have light tails, the diffusion is said to be normal or Fickian, with a variance of particle positions $\sigma_x^2$
+If both resting time and step distance distributions have light tails, the diffusion is said to be normal, with the variance of particle positions $\sigma_x^2$
 scaling with time $t$ as $\sigma_x^2 \propto t$.
-However, if either distribution has a heavy-tail, the diffusion is called anomalous, with a variance of particle position scaling as $\sigma_x^2 \propto t^\gamma$, where $\gamma\neq 1$.
+However, if either distribution has a heavy-tail, the diffusion is called anomalous, with the variance of particle position scaling as $\sigma_x^2 \propto t^\gamma$, where $\gamma\neq 1$.
 In this expression, $\gamma <1$ is called sub-diffusion and $\gamma > 1$ is super-diffusion.
-In strongly asymmetric random walks such as bedload transport, heavy-tailed step lengths imply super-diffusion, while heavy-tailed resting times imply either super or sub-diffusion, depending on $\alpha$ \citep{Weeks1996, Weeks1998}.
+In strongly asymmetric random walks such as bedload transport, heavy-tailed step lengths imply super-diffusion, while heavy-tailed resting times imply either super or sub-diffusion, depending on $\alpha$ \citep{Weeks1996, Weeks1998,Bradley2017}.
 
 Tracer experiments in gravel bed rivers show anomalous bedload diffusion \citep{Phillips2013, Bradley2017}, light-tailed step lengths \citep{Bradley2012, Hassan2013}, and heavy-tailed resting times \citep{Voepel2013, Olinde2015, Pretzlav2016, Bradley2017}, forming a coherent experimental picture of super-diffusive bedload transport, at least at long observation timescales \citep[e.g.][]{Nikora2002, Martin2012}.
 However, field studies have not resolved the mechanism generating observed heavy-tailed resting times \citep[e.g.][]{Bradley2017}, and empirical distributions display clear differences in their form and characteristics, with different tail parameters \citep[e.g.][]{Olinde2015} and sometimes truncation \citep[e.g.][]{Bradley2017} or tempering to light tails at large resting times \citep[e.g.][]{Voepel2013}.

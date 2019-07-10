@@ -182,36 +182,6 @@ Bradley, N\BPBI D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Celik%
-, Diplas%
-\BCBL {}\ \BBA {} Dancey%
-}{%
-Celik%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-Celik2014}
-\APACinsertmetastar {%
-Celik2014}%
-\begin{APACrefauthors}%
-Celik, A\BPBI O.%
-, Diplas, P.%
-\BCBL {}\ \BBA {} Dancey, C\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Instantaneous pressure measurements on a spherical
-  grain under threshold flow conditions}} {{Instantaneous pressure measurements
-  on a spherical grain under threshold flow conditions}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Fluid Mechanics}{741}{}{60--97}.
-\newblock
-\begin{APACrefDOI} \doi{10.1017/jfm.2013.632} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Charru%
 , Mouilleron%
 \BCBL {}\ \BBA {} Eiff%
@@ -593,40 +563,6 @@ Furbish, D\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Gaeuman%
-, Stewart%
-, Schmandt%
-\BCBL {}\ \BBA {} Pryor%
-}{%
-Gaeuman%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2017}}%
-}]{%
-Gaeuman2017}
-\APACinsertmetastar {%
-Gaeuman2017}%
-\begin{APACrefauthors}%
-Gaeuman, D.%
-, Stewart, R.%
-, Schmandt, B.%
-\BCBL {}\ \BBA {} Pryor, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Geomorphic response to gravel augmentation and
-  high-flow dam release in the Trinity River, California}} {{Geomorphic
-  response to gravel augmentation and high-flow dam release in the Trinity
-  River, California}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Earth Surface Processes and
-  Landforms}{42}{15}{2523--2540}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/esp.4191} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Gardiner%
 }{%
 Gardiner%
@@ -755,33 +691,6 @@ Gomez, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Gordon%
-, Carmichael%
-\BCBL {}\ \BBA {} Isackson%
-}{%
-Gordon%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1972}}%
-}]{%
-Gordon1972}
-\APACinsertmetastar {%
-Gordon1972}%
-\begin{APACrefauthors}%
-Gordon, R.%
-, Carmichael, J\BPBI B.%
-\BCBL {}\ \BBA {} Isackson, F\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1972}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Saltation of Plastic Balls in a 'One-Dimensional'
-  Flume}} {{Saltation of Plastic Balls in a 'One-Dimensional' Flume}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resources Research}{8}{2}{444--458}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Haken%
 }{%
 Haken%
@@ -804,38 +713,6 @@ Haken, H.%
   (\PrintOrdinal{3rd rev. e}\ \BEd).
 \newblock
 \APACaddressPublisher{New York}{Springer-Verlag}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Hassan%
-\ \BBA {} Bradley%
-}{%
-Hassan%
-\ \BBA {} Bradley%
-}{%
-{\protect \APACyear {2017}}%
-}]{%
-Hassan2017}
-\APACinsertmetastar {%
-Hassan2017}%
-\begin{APACrefauthors}%
-Hassan, M\BPBI A.%
-\BCBT {}\ \BBA {} Bradley, D\BPBI N.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Geomorphic controls on tracer particle dispersion in
-  gravel bed rivers}} {{Geomorphic controls on tracer particle dispersion in
-  gravel bed rivers}}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Gravel-Bed Rivers: Processes and Disasters} {Gravel-bed
-  rivers: Processes and disasters}\ (\BPGS\ 159--184).
-\newblock
-\APACaddressPublisher{New York, NY}{John Wiley {\&} Sons Ltd.}
-\newblock
-\begin{APACrefDOI} \doi{10.16719/j.cnki.1671-6981.2015.03.007} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1121,40 +998,6 @@ Larsen, L\BPBI G.%
 \APACjournalVolNumPages{Earth-Science Reviews}{160}{}{111--130}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.earscirev.2016.06.016} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Malmon%
-, Reneau%
-, Dunne%
-, Katzman%
-\BCBL {}\ \BBA {} Drakos%
-}{%
-Malmon%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2005}}%
-}]{%
-Malmon2005}
-\APACinsertmetastar {%
-Malmon2005}%
-\begin{APACrefauthors}%
-Malmon, D\BPBI V.%
-, Reneau, S\BPBI L.%
-, Dunne, T.%
-, Katzman, D.%
-\BCBL {}\ \BBA {} Drakos, P\BPBI G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2005}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Influence of sediment storage on downstream delivery of
-  contaminated sediment}} {{Influence of sediment storage on downstream
-  delivery of contaminated sediment}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resources Research}{41}{5}{1--17}.
-\newblock
-\begin{APACrefDOI} \doi{10.1029/2004WR003288} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1503,39 +1346,6 @@ Recking, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Recking%
-\ \protect \BOthers {.}}{%
-Recking%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2016}}%
-}]{%
-Recking2016}
-\APACinsertmetastar {%
-Recking2016}%
-\begin{APACrefauthors}%
-Recking, A.%
-, Piton, G.%
-, Vazquez-tarrio, D.%
-, Parker, G.%
-, Etgr, U\BPBI R.%
-, Universit{\'{e}}, I.%
-\BDBL {}Martin, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Quantifying the Morphological Print of Bedload
-  Transport}} {{Quantifying the Morphological Print of Bedload
-  Transport}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Earth Surface Processes and
-  Landforms}{41}{6}{809--822}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/esp.3869} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Redner%
 }{%
 Redner%
@@ -1806,6 +1616,29 @@ Weeks, E\BPBI R.%
 \APACjournalVolNumPages{Physica D: Nonlinear Phenomena}{97}{1-3}{291--310}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/0167-2789(96)00082-6} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weiss%
+}{%
+Weiss%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+Weiss1994}
+\APACinsertmetastar {%
+Weiss1994}%
+\begin{APACrefauthors}%
+Weiss, G\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle {{Aspects and applications of the random walk}} {{Aspects and
+  applications of the random walk}}.
+\newblock
+\APACaddressPublisher{Amsterdam}{North Holland}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
