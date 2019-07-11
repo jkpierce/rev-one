@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.9)  10 JUL 2019 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.9)  10 JUL 2019 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,18 +334,18 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 ) (./rev-one.aux)
 \openout1 = `rev-one.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count126
@@ -396,7 +396,7 @@ Package trackchanges Warning: TrackChanges is not compatable with the
 (trackchanges)                Use the 'soul' package instead.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 26.
+LaTeX Info: Redefining \selectfont on input line 38.
 \c@maskedRefs=\count132
 
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
@@ -404,50 +404,47 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 47.
+(Font)              size <10.95> substituted on input line 60.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 47.
+(Font)              size <10.95> substituted on input line 60.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<./figures/definition-combo.pdf, id=24, 384.1122pt x 227.62204pt>
-File: ./figures/definition-combo.pdf Graphic file (type pdf)
-
-<use ./figures/definition-combo.pdf>
-Package pdftex.def Info: ./figures/definition-combo.pdf used on input line 84.
-(pdftex.def)             Requested size: 397.48499pt x 235.55432pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4 <./figures/definition-combo.pdf>]
-Overfull \hbox (11.00987pt too wide) in paragraph at lines 142--144
+Excluding 'comment' comment.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+[5]
+Overfull \hbox (11.00987pt too wide) in paragraph at lines 158--160
 \OT1/cmr/m/n/10 bil-ity flow us-ing the for-ward Kol-mogorov equa-tion $\OML/cm
 m/m/it/10 @P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n; m\OT1/cmr/m/n/10 ; \OML/cmm/m/
 it/10 t\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =@t \OT1/cmr/m/n/10 = [][] \OML/cmm/m/
@@ -456,65 +453,103 @@ P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[]; m[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 t
 \OT1/cmr/m/n/10 )$
  []
 
-[5] <./figures/variance.pdf, id=57, 399.14081pt x 328.98111pt>
-File: ./figures/variance.pdf Graphic file (type pdf)
-
-<use ./figures/variance.pdf>
-Package pdftex.def Info: ./figures/variance.pdf used on input line 200.
-(pdftex.def)             Requested size: 198.7425pt x 163.81247pt.
-
-Overfull \hbox (6.84001pt too wide) in paragraph at lines 210--214
-[]\OT1/cmr/m/n/10 A rep-re-sen-ta-tive sub-set of these marginal
- []
-
-
-Underfull \vbox (badness 1552) has occurred while \output is active []
-
- [6 <./figures/variance.pdf>] <./figures/montage2.pdf, id=94, 800.9925pt x 333.
-245pt>
-File: ./figures/montage2.pdf Graphic file (type pdf)
-
-<use ./figures/montage2.pdf>
-Package pdftex.def Info: ./figures/montage2.pdf used on input line 216.
-(pdftex.def)             Requested size: 397.48499pt x 165.37119pt.
-
-<./figures/montage1.pdf, id=95, 797.98125pt x 642.4pt>
-File: ./figures/montage1.pdf Graphic file (type pdf)
-
-<use ./figures/montage1.pdf>
-Package pdftex.def Info: ./figures/montage1.pdf used on input line 229.
-(pdftex.def)             Requested size: 397.48499pt x 319.98373pt.
- [7 <./figures/montage2.pdf>] [8 <./figures/montage1.pdf>]
+[6] Excluding 'comment' comment. Excluding 'comment' comment.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-[10] (./rev-one.bbl
+ [7]
+Excluding 'comment' comment. Excluding 'comment' comment.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [8]
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
+(./rev-one.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
-[15] (./rev-one.aux)
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18])
+<./figures/definition-combo.pdf, id=78, 384.1122pt x 227.62204pt>
+File: ./figures/definition-combo.pdf Graphic file (type pdf)
+
+<use ./figures/definition-combo.pdf>
+Package pdftex.def Info: ./figures/definition-combo.pdf used on input line 364.
+
+(pdftex.def)             Requested size: 397.48499pt x 235.55432pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/variance.pdf, id=79, 399.14081pt x 328.98111pt>
+File: ./figures/variance.pdf Graphic file (type pdf)
+
+<use ./figures/variance.pdf>
+Package pdftex.def Info: ./figures/variance.pdf used on input line 371.
+(pdftex.def)             Requested size: 198.7425pt x 163.81247pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/montage2.pdf, id=80, 800.9925pt x 333.245pt>
+File: ./figures/montage2.pdf Graphic file (type pdf)
+
+<use ./figures/montage2.pdf>
+Package pdftex.def Info: ./figures/montage2.pdf used on input line 378.
+(pdftex.def)             Requested size: 397.48499pt x 165.37119pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figures/montage1.pdf, id=81, 797.98125pt x 642.4pt>
+File: ./figures/montage1.pdf Graphic file (type pdf)
+
+<use ./figures/montage1.pdf>
+Package pdftex.def Info: ./figures/montage1.pdf used on input line 384.
+(pdftex.def)             Requested size: 397.48499pt x 319.98373pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <./figures/definition-combo.pdf> <./figures/variance.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/variance.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] [21 <./figures/montage2.pdf> <./figures/montage1.pdf>] [22] (./rev-one.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 5370 strings out of 493029
- 71384 string characters out of 6136235
- 246116 words of memory out of 5000000
- 8775 multiletter control sequences out of 15000+600000
- 13258 words of font info for 52 fonts, out of 8000000 for 9000
+ 5399 strings out of 493029
+ 71807 string characters out of 6136235
+ 248221 words of memory out of 5000000
+ 8802 multiletter control sequences out of 15000+600000
+ 13894 words of font info for 55 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 50i,12n,37p,539b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,37p,539b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -531,18 +566,19 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on rev-one.pdf (15 pages, 855073 bytes).
+s/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on rev-one.pdf (22 pages, 872851 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 232 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
