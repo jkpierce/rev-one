@@ -90,41 +90,6 @@ Bennett, C\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-B{\"{o}}hm%
-, Ancey%
-, Frey%
-, Reboud%
-\BCBL {}\ \BBA {} Ducottet%
-}{%
-B{\"{o}}hm%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-Bohm2004}
-\APACinsertmetastar {%
-Bohm2004}%
-\begin{APACrefauthors}%
-B{\"{o}}hm, T.%
-, Ancey, C.%
-, Frey, P.%
-, Reboud, J\BPBI L.%
-\BCBL {}\ \BBA {} Ducottet, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Fluctuations of the solid discharge of gravity-driven
-  particle flows in a turbulent stream}} {{Fluctuations of the solid discharge
-  of gravity-driven particle flows in a turbulent stream}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Physical Review E - Statistical, Nonlinear, and Soft
-  Matter Physics}{69}{6 1}{1--13}.
-\newblock
-\begin{APACrefDOI} \doi{10.1103/PhysRevE.69.061307} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Bradley%
 }{%
 Bradley%
@@ -245,8 +210,10 @@ Chartrand, S.%
 
 \bibitem [\protect \citeauthoryear {%
 Church%
+\ \BBA {} Haschenburger%
 }{%
 Church%
+\ \BBA {} Haschenburger%
 }{%
 {\protect \APACyear {2017}}%
 }]{%
@@ -255,6 +222,7 @@ Church2017}
 Church2017}%
 \begin{APACrefauthors}%
 Church, M.%
+\BCBT {}\ \BBA {} Haschenburger, J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -266,34 +234,6 @@ Church, M.%
 \APACjournalVolNumPages{Water Resources Research}{53}{}{5--10}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/2016WR019675.Received} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Church%
-\ \BBA {} Ferguson%
-}{%
-Church%
-\ \BBA {} Ferguson%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-Church2015}
-\APACinsertmetastar {%
-Church2015}%
-\begin{APACrefauthors}%
-Church, M.%
-\BCBT {}\ \BBA {} Ferguson, R\BPBI I.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Morphodynamics: Rivers beyond steady state}}
-  {{Morphodynamics: Rivers beyond steady state}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resources Research}{51}{4}{1883--1897}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/2014WR016862} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -435,37 +375,6 @@ Elgueta-Astaburuaga, M\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Fathel%
-, Furbish%
-\BCBL {}\ \BBA {} Schmeeckle%
-}{%
-Fathel%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-Fathel2015}
-\APACinsertmetastar {%
-Fathel2015}%
-\begin{APACrefauthors}%
-Fathel, S\BPBI L.%
-, Furbish, D\BPBI J.%
-\BCBL {}\ \BBA {} Schmeeckle, M\BPBI W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Experimental evidence of statistical ensemble behavior
-  in bed load sediment transport}} {{Experimental evidence of statistical
-  ensemble behavior in bed load sediment transport}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Geophysical Research F: Earth
-  Surface}{120}{11}{2298--2317}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/2015JF003552} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ferrer-Boix%
 \ \BBA {} Hassan%
 }{%
@@ -560,6 +469,40 @@ Furbish, D\BPBI J.%
   Surface}{117}{3}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2012JF002352} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gaeuman%
+, Stewart%
+, Schmandt%
+\BCBL {}\ \BBA {} Pryor%
+}{%
+Gaeuman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Gaeuman2017}
+\APACinsertmetastar {%
+Gaeuman2017}%
+\begin{APACrefauthors}%
+Gaeuman, D.%
+, Stewart, R.%
+, Schmandt, B.%
+\BCBL {}\ \BBA {} Pryor, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Geomorphic response to gravel augmentation and
+  high-flow dam release in the Trinity River, California}} {{Geomorphic
+  response to gravel augmentation and high-flow dam release in the Trinity
+  River, California}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth Surface Processes and
+  Landforms}{42}{15}{2523--2540}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/esp.4191} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -662,35 +605,6 @@ Gillespie, D\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Gomez%
-\ \BBA {} Church%
-}{%
-Gomez%
-\ \BBA {} Church%
-}{%
-{\protect \APACyear {1989}}%
-}]{%
-Gomez1989}
-\APACinsertmetastar {%
-Gomez1989}%
-\begin{APACrefauthors}%
-Gomez, B.%
-\BCBT {}\ \BBA {} Church, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1989}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{An assessment of bed load sediment transport formulae
-  for gravel bed rivers}} {{An assessment of bed load sediment transport
-  formulae for gravel bed rivers}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Water Resources Research}{25}{6}{1161--1186}.
-\newblock
-\begin{APACrefDOI} \doi{10.1029/WR025i006p01161} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Haken%
 }{%
 Haken%
@@ -713,6 +627,38 @@ Haken, H.%
   (\PrintOrdinal{3rd rev. e}\ \BEd).
 \newblock
 \APACaddressPublisher{New York}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hassan%
+\ \BBA {} Bradley%
+}{%
+Hassan%
+\ \BBA {} Bradley%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Hassan2017}
+\APACinsertmetastar {%
+Hassan2017}%
+\begin{APACrefauthors}%
+Hassan, M\BPBI A.%
+\BCBT {}\ \BBA {} Bradley, D\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Geomorphic controls on tracer particle dispersion in
+  gravel bed rivers}} {{Geomorphic controls on tracer particle dispersion in
+  gravel bed rivers}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Gravel-Bed Rivers: Processes and Disasters} {Gravel-bed
+  rivers: Processes and disasters}\ (\BPGS\ 159--184).
+\newblock
+\APACaddressPublisher{New York, NY}{John Wiley {\&} Sons Ltd.}
+\newblock
+\begin{APACrefDOI} \doi{10.16719/j.cnki.1671-6981.2015.03.007} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1001,6 +947,72 @@ Larsen, L\BPBI G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Macklin%
+\ \protect \BOthers {.}}{%
+Macklin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+Macklin2006}
+\APACinsertmetastar {%
+Macklin2006}%
+\begin{APACrefauthors}%
+Macklin, M\BPBI G.%
+, Brewer, P\BPBI A.%
+, Hudson-Edwards, K\BPBI A.%
+, Bird, G.%
+, Coulthard, T\BPBI J.%
+, Dennis, I\BPBI A.%
+\BDBL {}Turner, J\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A geomorphological approach to the management of rivers
+  contaminated by metal mining}} {{A geomorphological approach to the
+  management of rivers contaminated by metal mining}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geomorphology}{79}{3-4}{423--447}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.geomorph.2006.06.024} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Malmon%
+, Reneau%
+, Dunne%
+, Katzman%
+\BCBL {}\ \BBA {} Drakos%
+}{%
+Malmon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+Malmon2005}
+\APACinsertmetastar {%
+Malmon2005}%
+\begin{APACrefauthors}%
+Malmon, D\BPBI V.%
+, Reneau, S\BPBI L.%
+, Dunne, T.%
+, Katzman, D.%
+\BCBL {}\ \BBA {} Drakos, P\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Influence of sediment storage on downstream delivery of
+  contaminated sediment}} {{Influence of sediment storage on downstream
+  delivery of contaminated sediment}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Water Resources Research}{41}{5}{1--17}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2004WR003288} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Martin%
 , Jerolmack%
 \BCBL {}\ \BBA {} Schumer%
@@ -1231,6 +1243,41 @@ Paintal, A\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pelosi%
+, Schumer%
+, Parker%
+\BCBL {}\ \BBA {} Ferguson%
+}{%
+Pelosi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Pelosi2016}
+\APACinsertmetastar {%
+Pelosi2016}%
+\begin{APACrefauthors}%
+Pelosi, A.%
+, Schumer, R.%
+, Parker, G.%
+\BCBL {}\ \BBA {} Ferguson, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The cause of advective slowdown of tracer pebbles in
+  rivers: Implementation of Exner-Based Master Equation for coevolving
+  streamwise and vertical dispersion}} {{The cause of advective slowdown of
+  tracer pebbles in rivers: Implementation of Exner-Based Master Equation for
+  coevolving streamwise and vertical dispersion}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Earth
+  Surface}{119}{}{2448--2459}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2014JF003184} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Phillips%
 , Martin%
 \BCBL {}\ \BBA {} Jerolmack%
@@ -1310,39 +1357,6 @@ Pretzlav, K\BPBI L.%
 \unskip\
 \newblock
 \APACaddressSchool {}{University of Texas}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Recking%
-, Li{\'{e}}bault%
-, Peteuil%
-\BCBL {}\ \BBA {} Jolimet%
-}{%
-Recking%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2012}}%
-}]{%
-Recking2012}
-\APACinsertmetastar {%
-Recking2012}%
-\begin{APACrefauthors}%
-Recking, A.%
-, Li{\'{e}}bault, F.%
-, Peteuil, C.%
-\BCBL {}\ \BBA {} Jolimet, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2012}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Testing bedload transport equations with consideration
-  of time scales}} {{Testing bedload transport equations with consideration of
-  time scales}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Earth Surface Processes and
-  Landforms}{37}{7}{774--789}.
-\newblock
-\begin{APACrefDOI} \doi{10.1002/esp.3213} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1559,6 +1573,39 @@ Voepel, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Vowinckel%
+, Kempe%
+\BCBL {}\ \BBA {} Frohlich%
+}{%
+Vowinckel%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Vowinckel2014}
+\APACinsertmetastar {%
+Vowinckel2014}%
+\begin{APACrefauthors}%
+Vowinckel, B.%
+, Kempe, T.%
+\BCBL {}\ \BBA {} Frohlich, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Fluid-particle interaction in turbulent open channel
+  flow with fully-resolved mobile beds}} {{Fluid-particle interaction in
+  turbulent open channel flow with fully-resolved mobile beds}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Water Resources}{72}{}{32--44}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1016/j.advwatres.2014.04.019}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.advwatres.2014.04.019} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Weeks%
 \ \BBA {} Swinney%
 }{%
@@ -1642,6 +1689,37 @@ Weiss, G\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Wiberg%
+\ \BBA {} Smith%
+}{%
+Wiberg%
+\ \BBA {} Smith%
+}{%
+{\protect \APACyear {1985}}%
+}]{%
+Wiberg1985}
+\APACinsertmetastar {%
+Wiberg1985}%
+\begin{APACrefauthors}%
+Wiberg, P\BPBI L.%
+\BCBT {}\ \BBA {} Smith, J\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1985}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A theoretical model for saltating grains in water}} {{A
+  theoretical model for saltating grains in water}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research}{90}{C4}{7341}.
+\newblock
+\begin{APACrefURL} \url{http://doi.wiley.com/10.1029/JC090iC04p07341}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1029/JC090iC04p07341} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Wong%
 , Parker%
 , DeVries%
@@ -1706,29 +1784,6 @@ Wu, Z.%
   Surface}{124}{1}{21--37}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/2018JF004654} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Yalin%
-}{%
-Yalin%
-}{%
-{\protect \APACyear {1972}}%
-}]{%
-Yalin1972}
-\APACinsertmetastar {%
-Yalin1972}%
-\begin{APACrefauthors}%
-Yalin, M\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1972}.
-\newblock
-\APACrefbtitle {{Mechanics of Sediment Transport}} {{Mechanics of Sediment
-  Transport}}.
-\newblock
-\APACaddressPublisher{}{Pergamon Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
