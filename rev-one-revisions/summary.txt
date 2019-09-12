@@ -1,0 +1,26 @@
+Singh 2009 measured bed elevation and bedload transport timeseries jointly and analyzed their scaling with observation timescale. They found a scaling of fluctuations with observation timescale that eventually diminished at a saturation time. The saturation times of the scaling ranges for bedload transport and bed elevation timeseries were similar, leading the authors to conclude that "fluctuations in transport are intimiately related to bed topography". However, they highlight that "the nature of these dependencies is still unclear".
+
+Reviewer #1 stated "Singh et al 2009 did not mention bed elevation distributions to be symmetric". I extracted the timeseries of bed elevations for both flow conditions in Singh 2009 using image analysis on figures 3 and 4 in the paper, and determined the 5500l/s flow (high transport conditions) show a small positive skew (0.1), while the 4300l/s flow (low transport conditions) shows a small negative skew (-0.2). The scipy skewtest function shows these skew values are not statistically significant given the size and uncertainty of the dataset.
+
+Notably, the sediment used in Singh et al 2009 was a gravel mixture with d50 = 11.3mm, d16=4.3mm, and d84=23.1mm. They saw minimal bedform development for the low flow condition of 4300L/s, and limited bedform development for the high flow condition of 5500L/s. Thus the degree of bedform development increases with discharge. There are no obvious periodicities in figures 3c or 4c to clearly indicate migrating bedforms for either flow condition. Singh 2009 can be summarized as an experiment on bed elevation deviations in the absence of bedforms, where bed elevation pdfs are close to a normal distribution, having minimal skew.
+
+Singh 2012 used a mixture of 85% gravel and 15% sand having d50 = 11.3mm, d16=2.2mm, and d84=21.2mm. Therefore the sediment size distribution is relatively more fine, which I assume was a condition arranged by Singh et al to accentuate bedform development and migration. Figure 2a shows quasi periodic aggradation every 40min or so, even at the relatively low (when compared to Singh et al 2009 conditions) flow of 2000L/s. Singh et al 2012 can be summarized as an experiment on bed elevation deviations in the presence of bedforms, where bed elevation pdfs are skewed and show departures from normality at their tails.
+
+Thus a direct comparison of the bed elevation pdf between Singh 2009 and Singh 2012 is not really valid, since bedform dynamics dominate the signal in Singh 2012 but are not really present in Singh et al 2009.
+
+
+Aberle and Nikora 2006 develop their pdfs from a static bed which has been subjected to an armoring flow until transport ceased.
+Their pdfs were computed spatially and do not represent the same thing as mine. Their pdfs "visualize the increase of geometrical roughness due to the accumulation of coarser grains on the surface during the successive armor layer development". 
+
+
+Pelosi 2014 is concerned with extending the Master equation approaches of Parker et al 2000 and Ganti et al 2010 to describe the vertical dispersion of tracer particles.
+Their approach takes a pdf of bed elevations as input, and does not develop any formulation to calculate this quantity. They simply assume a heavy-tailed form for the probability that an entrained particle jumps from an elevation as one test case of their model. I do not believe this work provides any evidence that the bed elevation pdf is expected to be asymmetric, nor do I think the objective of Pelosi et al 2014 aligns with the present work.
+
+
+Wong 2007 shows a minimal departure from Gaussian behavior at the tails, demonstrating "very good agreement for almost the entire range of potential bed elevation deviation values, with the exception of the extreme tails of the distribution" (p10). They later reiterated that "a normal probablity model provides an excellent fit of the empirical distribution of the bed elevation fluctuations at mobbile-bed equilibrium" (p19). They also emphasize that Crickmore and Lean (1962a,1962b) and Pender et al 2001 also found this in their measurements of spatial bed elevation distributions.
+
+
+
+
+
+
