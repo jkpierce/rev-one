@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+% General document formatting
+\usepackage[margin=0.75in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage{subfig}         % side-by-side figures 
+% Related to math
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{titling}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{algpseudocode}
+
+\usepackage{booktabs} % for wrapping tabulars in accord with
+\bibliographystyle{agu}
+\setlength{\droptitle}{-5em}   % This is your set screw
+
+%\usepackage[math]{kurier}
+\newcommand\be{\begin{equation}} % shortcut to start eq envs 
+\newcommand\ee{\end{equation}}   % shortcut to end eq envs
+\newcommand\ol{\overline}        % shortcut to draw overline 
+\newcommand\bra{\langle}
+\newcommand\ket{\rangle}
+\newcommand\El{\mathcal{L}}
+\newcommand\tg{\tilde{g}}
+\newcommand\tG{\tilde{G}}
+\date{} % make the date field blank
+
+
+
+
+% for pseudo code -- example from https://tex.stackexchange.com/questions/163768/write-pseudo-code-in-latex
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+\begin{document}
+\title{Auxiliary Material for "Joint stochastic model of bedload transport and bed elevations: derivation of heavy-tailed resting times" by James K. Pierce and Marwan A. Hassan}
+\maketitle
+
+\section*{Detailed description of Gillespie simulation algorithm}
+
+The Gillespie Stochastic Simulation Algorithm (SSA) generates exact realizations of a Markov random process from a sequence of random numbers.
+It was originally developed for chemical physics by \citet{Gillespie1977} and is reviewed in \citet{Gillespie1992} and \citet{Gillespie2007}.
+The SSA hinges on the defining property of a Markov process. When the transition rates from one state to another are not dependent on the distant past, the process is Markov \citep[e.g.,][]{Cox1965}.
+In the following sections, we begin by demonstrating the time intervals $\tau$ between subsequent transitions (i.e., the intervals between transition times) are exponentially distributed within the model we develop in the main text. Then we describe the SSA as a consequence of this property.
+
+\subsection*{Times between transitions of any kind}
+Our joint stochastic description of bedload and bed elevation changes is characterized by a set of states $(n,m)$ where $n$ and $m$ are positive integers. 
+Our description involves four possible transitions (migration in, entrainment, deposition, migration out) with rates given in equations (2-5) in the main text.
+From the state $(n,m)$, the rate (probability per unit time) for any transition to occur is the sum over all possibilities:
+\begin{multline} A(n,m) = R_{MI}(n+1,m|n,m) + R_E(n+1,m-1|n,m) \\+ R_D(n-1,m+1|n,m) + R_{MO}(n-1,m|n,m).\end{multline}
+Using this, the probability that no transition occurs from the state $(n,m)$ in a small time interval $\delta \tau$ is $1-A(n,m)\delta \tau$. If we denote by $Q(\tau|n,m)$ the probability density that a transition of any kind occurs from the state $(n,m)$ after a time $\tau$, we can express the probability density that a transition happens after a slightly larger time $\tau + \delta \tau$ as 
+\be Q(\tau+\delta \tau|n,m) = \big[1-A(n,m)\delta \tau\big]Q(\tau|n,m).\ee
+This equation invokes the Markov property, since it does not involve the past history of states $(n,m)$. Taking $\delta\tau \rightarrow 0 $ we find the master equation $\frac{d}{d\tau}Q(\tau|n,m) = -A(n,m)Q(\tau|n,m)$, from which we conclude the time $\tau$ between subsequent transitions is distributed as 
+\be Q(\tau|n,m) = A(n,m)e^{-A(n,m)\tau}. \label{eq:exp}\ee
+Therefore we have shown the time $\tau$ to the next transition from a state $(n,m)$ is exponentially distributed with mean value $\bar{\tau} = 1/A(n,m).$ In deriving this result, we used the normalization condition $1 = \int_0^\infty Q(\tau|n,m)d\tau.$
+
+Crucially, this result implies if the stochastic process is in the state $(n,m)$ at a time $t$, the next transition will occur at a time $t+\tau$ with $\tau$ a random variable drawn from the exponential distribution \ref{eq:exp}.
+Therefore we can determine the times between subsequent transitions by drawing exponentially distributed random numbers.
+
+\subsection*{Selection of transitions that occur}
+
+So far, we have determined how to step from one transition to the next, but we have not specified the type of transitions that occur.
+Intuitively, this will depend on the relative magnitudes of the rates from equations (2-5) in the main text: the transition with the highest rate is most likely to occur. This is formalized by generating the ratios
+\be S = \Bigg\{\frac{R_{MI}(n+1,m|n,m)}{ A(n,m)},\frac{R_E(n+1,m-1|n,m)}{ A(n,m)},\frac{R_D(n-1,m+1|n,m)}{ A(n,m)},\frac{R_{MO}(n-1,m|n,m)}{ A(n,m)}\Bigg\}. \label{eq:rel}\ee
+By construction, $\text{sum}\{S\}=1$.
+By forming cumulative sums of the four ratios, we partition the unit interval $[0,1]$ into four chunks, each associated with a transition -- either migration in, entrainment, deposition, or migration out. The transitions with the highest rates have the largest associated chunks. To randomly select the transition that occurs at a transition time, we draw a random number on $[0,1]$ and find which chunk it falls in.
+
+In summary, to step the process through a single transition, we draw the time interval to the next transition from the distribution (\ref{eq:exp}), then draw a uniform random from $[0,1]$ and use it to select the transition that occurs from the cumulative sum of the ratios in (\ref{eq:rel}). The SSA simply iterates this random number generation/selection process to generate exact realizations of the stochastic process.
+
+\subsection*{Pseudo code for the Gillespie SSA}
+
+\begin{algorithmic}
+	\State $t = 0$ 
+	\State $n = n_0$\Comment{Set the initial state $(n_0,m_0)$}
+	\State $m =  m_0$
+
+	\While{$t<t_{\text{max}}$;}{	\Comment{Simulation will go until $t$ surpasses $t_\text{max}$}
+	\State draw $\tau$ from eq. (\ref{eq:exp})
+	\State $t = t+\tau$
+	\State draw a random number $r$ in $[0,1]$
+	\State compute the ratios $r_1,r_2,r_3,r_4$ in eq. (\ref{eq:rel})
+	\State form the cumulative sums $r_i = \sum_{1\leq j\leq i}r_j$
+	
+	\If {$0<r<r_1$}	\Comment{Migration in}
+	\State $n=n+1$
+	\ElsIf {$r_1\leq r < r_2$} 	\Comment{Entrainment}
+	\State $n= n + 1$
+	\State $m = m-1 $
+	\ElsIf {$r_2\leq r < r_3$} 	\Comment{Deposition}
+	\State $ n = n - 1$
+	\State $ m = m + 1$
+	\ElsIf {$r_3 \leq r < 1$} \Comment{ Migration out}
+	\State $ n = n-1$
+	\EndIf
+}
+	\State record $(n,m,t)$ \Comment{Build time series of $n$ and $m$}
+	\EndWhile
+\end{algorithmic}
+
+\bibliography{biblio}
+\end{document}
+
+
+
